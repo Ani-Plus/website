@@ -2,7 +2,7 @@
     <%- include('links') %>
     <%- include('menu') %>
 
-<title>Owari no Seraph - Ani+</title>
+<title><%= anime.name %> - Ani+</title>
 <div align="left">
     <br>
     <br>
@@ -19,4 +19,14 @@
 <p style="padding-left: 200px;padding-right: 200px;"><%= anime.description %></p>
 <br>
 <br>
+<div align="center" style="border-radius: 10px;width: 100%;padding-bottom: .25rem;background-color:#57F287;"></div>
+<br>
+<br>
+<h1 style="padding-left: 200px;padding-right: 200px;">Sezonlar</h1></a>
+<br>
+<br>
+<a href=""><img style="padding-left: 200px;padding-right: 200px;" src="<%= anime.seasons.season1[1] %>" class="image1" width="125" height="175"></a>
+<br>
+<br>
+<b style="padding-left: 200px;padding-right: 200px;">  <%= anime.seasons.season1[0] %></b>
 </html>

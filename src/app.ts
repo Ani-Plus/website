@@ -33,7 +33,8 @@ app.get("/anime/:name", (req, res) => {
       description: animedata[req.params.name].description,
       cover: animedata[req.params.name].cover,
       background: animedata[req.params.name].background,
-      year: animedata[req.params.name].year
+      year: animedata[req.params.name].year,
+      seasons: animedata[req.params.name]
     }
     res.render(process.cwd() + "/views/anime", {anime})
 })
