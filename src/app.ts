@@ -27,10 +27,10 @@ app.get("/anime/:name", (req, res) => {
     let anime = {
       name: name,
       types: animedata[req.params.name].types.join("/"),
-      description: animedata[req.params.name].description,
-      cover: animedata[req.params.name].cover,
-      background: animedata[req.params.name].background,
-      year: animedata[req.params.name].year
+      description: animedata[req.params.name]["description"],
+      cover: animedata[req.params.name]["cover"],
+      background: animedata[req.params.name]["background"],
+      year: animedata[req.params.name]["year"]
     }
     res.render(process.cwd() + "/views/anime", {anime})
 })
