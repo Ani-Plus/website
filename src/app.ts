@@ -23,12 +23,9 @@ app.get("/logo", function(req, res) {
 })
 app.get("/anime/:name", (req, res) => {
   if(!animedata[req.params.name]) res.send("Böyle bir anime yüklenmemiş.")
-  let n:string = req.params.name.split("-").join(" ")
-  let a:string = n[0]
-  let m:string = a.toUpperCase()
-  let e:string = n.replace(a, m)
+  let name:string = req.params.name.split("-").join(" ").replace(req.params.name.split("-").join(" ")[0], req.params.name.split("-").join(" ")[0].toUpperCase())
     let anime = {
-      name: e,
+      name: name,
       types: animedata[req.params.name].types.join("/"),
       description: animedata[req.params.name].description,
       cover: animedata[req.params.name].cover,
