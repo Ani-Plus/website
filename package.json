@@ -1,3 +1,26 @@
 {
-	
+    "name": "aniplus",
+    "version": "0.0.1",
+    "description": "aniplus",
+    "main": "./src/app.ts",
+    "scripts": {
+        "start": "npx ts-node ./src/app.ts",
+        "run": "npx tsc ./src/app.ts && node ./src/app.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ani-plus/website.git"
+    },
+    "author": "ani+ team",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/ani-plus/website/issues"
+    },
+    "homepage": "https://github.com/ani-plus/website#readme",
+    "dependencies": {
+        "@types/express": "^4.17.13",
+        "express": "^4.17.1",
+        "moment": "^2.29.1",
+        "ts-node": "^10.4.0"
+    }
 }
