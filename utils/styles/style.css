@@ -10,6 +10,10 @@
 	--orange:  #faa61a;
 	--background:  rgb(24, 26, 34);
 }
+::selection{
+	color: var(--green);
+	background-color: var(--background);
+}
 .image {
 	border-radius: 10px;
 	border-color: var(--red);
@@ -42,14 +46,14 @@
     background-color: var(--background);
     background-repeat: false;
     font-family: "Quicksand", sans-serif;
-    color: white; 
-	margin:0; 
+    color: white;
+	margin:0;
 	padding:0;
 }
 	.menu{
-		width:1000px; 
-		height:48px; 
-		background:transparent; 
+		width:1000px;
+		height:48px;
+		background:transparent;
 		margin:0 auto;
 		border-bottom:4px Black;
 	}
@@ -58,10 +62,10 @@
 		list-style-type:none;
 	}
 	.menu ul li a{
-		color:White; 
+		color:White;
 		font:17px Arial;
 		text-decoration:none;
-		display:block; 
+		display:block;
 		padding:14px 15px;
 		transition:all .5s;
 		-webkit-transition:all .5s;
