@@ -5,6 +5,7 @@ import config from "../application";
 import render from "../scripts/renderPage";
 import logger from "../utils/scripts/logger";
 const animedata = require("../database/client/animedata.json");
+const seasondata = require("../database/client/seasondata.json");
 
 logger("Ani+ is Ready!")
 //////////////////////////////////
@@ -34,9 +35,28 @@ app.get("/anime/:name", (req, res) => {
       cover: animedata[req.params.name]["cover"],
       background: animedata[req.params.name]["background"],
       year: animedata[req.params.name]["year"],
-      seasons: animedata[req.params.name]
+      seasons: animedata[req.params.name].season,
+      seasonCount: animedata[req.params.name].seasonCount
     }
     res.render(process.cwd() + "/views/anime", {anime})
+})
+app.get("/anime/watch/:name/:season/:episode", (req, res) => {
+  if(!animedata[req.params.name]) res.redirect("/error")
+  let name:string = req.params.name.split("-").join(" ").replace(req.params.name.split("-").join(" ")[0], req.params.name.split("-").join(" ")[0].toUpperCase())
+    let anime = {
+      name: name,
+      types: animedata[req.params.name]["types"].join("/"),
+      description: animedata[req.params.name]["description"],
+      cover: animedata[req.params.name]["cover"],
+      background: animedata[req.params.name]["background"],
+      year: animedata[req.params.name]["year"],
+      seasons: animedata[req.params.name].season,
+      seasonCount: animedata[req.params.name].seasonCount
+    }
+    let season = req.params.season
+    let episode = req.params.episode
+    let dat = seasondata[req.params.name]
+    res.render(process.cwd() + "/views/watch", {anime, season, episode, dat})
 })
 //////////////////////////////////
 app.listen(config.port)

@@ -1,0 +1,47 @@
+<html>
+    <%- include('links') %>
+    <%- include('menu') %>
+
+<title><%= anime.name %> <%= season %>. Sezon <%= episode %>. Bölüm - Ani+</title>
+<div align="left">
+    <br>
+    <br>
+    <br>
+    <iframe src="<%= dat[`season${season}`][`episode${episode}`].url %>" style="padding-left: 225px;padding-right: 200px; width: 65%; height: 70%; " frameborder="0"></iframe>
+</div>
+<br>
+<h2 style="padding-left: 200px;padding-right: 200px;"><%= anime.name %> - Sezon <%= season %> Bölüm <%= episode %></h2></a>
+<p style="padding-left: 200px;color: #57F287;padding-right: 200px;"><%= dat[`season${season}`][`episode${episode}`].name %>
+</p>
+<br>
+<p style="padding-left: 200px;padding-right: 200px;"><%= dat[`season${season}`][`episode${episode}`].description %></p>
+<br>
+<br>
+<div style="padding-left: 200px;padding-right: 200px;">
+<button onclick="prev()" class="button" title="Önceki Bölüm">Önceki Bölüm</button>
+<button onclick="next()" class="button" title="Sonraki Bölüm">Sonraki Bölüm</button>
+</div>
+<br>
+<br>
+<div align="center" style="border-radius: 10px;width: 100%;padding-bottom: .25rem;background-color:#57F287;"></div>
+<br>
+<br>
+<script>
+function next() {
+  window.location.href = `/anime/watch/<%= anime.name %>/<%= season %>/${<%= episode %> + 1}`;
+}
+function prev() {
+  window.location.href = `/anime/watch/<%= anime.name %>/<%= season %>/${<%= episode %> - 1}`;
+}
+</script>
+<div style="padding-left: 200px;padding-right: 200px;" id="disqus_thread"></div>
+<script>
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://ani-14.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</html>

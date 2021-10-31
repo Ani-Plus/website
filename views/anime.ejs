@@ -22,11 +22,13 @@
 <div align="center" style="border-radius: 10px;width: 100%;padding-bottom: .25rem;background-color:#57F287;"></div>
 <br>
 <br>
-<h1 style="padding-left: 200px;padding-right: 200px;">Sezonlar</h1></a>
+<h1 style="padding-left: 200px;padding-right: 200px;">Sezonlar (<%= anime.seasonCount %>)</h1></a>
 <br>
 <br>
-<a href=""><img style="padding-left: 200px;padding-right: 200px;" src="<%= anime.seasons.season1[1] %>" class="image1" width="125" height="175"></a>
+<% for(var i = 0; i > anime.seasonCount; i++) { %>
+<a href=""><img style="padding-left: 200px;padding-right: 200px;" src="<%= anime.seasons[i.replace(1, 'one').replace(2, 'two')][1] %>" class="image1" width="125" height="175"></a>
 <br>
 <br>
-<b style="padding-left: 200px;padding-right: 200px;">  <%= anime.seasons.season1[0] %></b>
+<b style="padding-left: 200px;padding-right: 200px;">  <%= anime.seasons[i.replace(1, 'one').replace(2, 'two')][0] %></b>
+<% } %>
 </html>
