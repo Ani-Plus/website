@@ -29,11 +29,11 @@ app.get("/anime/:name", (req, res) => {
   let name:string = req.params.name.split("-").join(" ").replace(req.params.name.split("-").join(" ")[0], req.params.name.split("-").join(" ")[0].toUpperCase())
     let anime = {
       name: name,
-      types: animedata[req.params.name].types.join("/"),
-      description: animedata[req.params.name].description,
-      cover: animedata[req.params.name].cover,
-      background: animedata[req.params.name].background,
-      year: animedata[req.params.name].year,
+      types: animedata[req.params.name]["types"].join("/"),
+      description: animedata[req.params.name]["description"],
+      cover: animedata[req.params.name]["cover"],
+      background: animedata[req.params.name]["background"],
+      year: animedata[req.params.name]["year"],
       seasons: animedata[req.params.name]
     }
     res.render(process.cwd() + "/views/anime", {anime})
