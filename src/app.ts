@@ -21,8 +21,11 @@ app.get("/style", function(req, res) {
 app.get("/logo", function(req, res) {
     res.sendFile(process.cwd() + "/utils/images/logo.png")
 })
+app.get("/error", (req, res) => {
+  res.render("error")
+})
 app.get("/anime/:name", (req, res) => {
-  if(!animedata[req.params.name]) res.send("Böyle bir anime yüklenmemiş.")
+  if(!animedata[req.params.name]) res.redirect("/error")
   let name:string = req.params.name.split("-").join(" ").replace(req.params.name.split("-").join(" ")[0], req.params.name.split("-").join(" ")[0].toUpperCase())
     let anime = {
       name: name,
