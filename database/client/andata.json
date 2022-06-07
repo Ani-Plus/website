@@ -1,7 +1,7 @@
 {
    "gotoubun": {
         "design": {
-          "banner": "https://image.tmdb.org/t/p/w500/jsUoRbrTUGb10Yir7qsIQJUJIfu.jpg",
+          "banner": "https://wallpapercave.com/wp/wp7342091.jpg",
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Go-Toubun_no_Hanayome_logo.svg/250px-Go-Toubun_no_Hanayome_logo.svg.png"
         },
         "names": {
@@ -55,7 +55,7 @@
             "seasons": {
                 "1": {
                     "name": "Season 1",
-                    "episodes": 12,
+                    "episodess": 12,
                     "date":"Jan 10, 2019",
                     "cover": "https://i.pinimg.com/736x/c9/0e/bd/c90ebddf4bf51953f30c34c0df936777.jpg",
                     "episodes": {
@@ -68,12 +68,62 @@
                             "name": "Çatı İtirafı",
                             "url": "https://odnoklassniki.ru/videoembed/976710994436",
                             "description": "Futaro, beşizlerin bir öğretmene ihtiyacı olup olmadığı konusundaki tartışmayı çözmek için bir sınav önerir."
+                        },
+                        "episode3": {
+                            "name": "Örnek Başlık",
+                            "url": "https://odnoklassniki.ru/videoembed/970539862532",
+                            "description": "Örnek bölüm açıklaması burada gözükür."
+                        },
+                        "episode4": {
+                            "name": "Örnek Başlık",
+                            "url": "https://odnoklassniki.ru/videoembed/970539862532",
+                            "description": "Örnek bölüm açıklaması burada gözükür."
+                        },
+                        "episode5": {
+                            "name": "Örnek Başlık",
+                            "url": "https://odnoklassniki.ru/videoembed/970539862532",
+                            "description": "Örnek bölüm açıklaması burada gözükür."
+                        },
+                        "episode6": {
+                            "name": "Örnek Başlık",
+                            "url": "https://odnoklassniki.ru/videoembed/970539862532",
+                            "description": "Örnek bölüm açıklaması burada gözükür."
+                        },
+                        "episode7": {
+                            "name": "Örnek Başlık",
+                            "url": "https://odnoklassniki.ru/videoembed/970539862532",
+                            "description": "Örnek bölüm açıklaması burada gözükür."
+                        },
+                        "episode8": {
+                            "name": "Örnek Başlık",
+                            "url": "https://odnoklassniki.ru/videoembed/970539862532",
+                            "description": "Örnek bölüm açıklaması burada gözükür."
+                        },
+                        "episode9": {
+                            "name": "Örnek Başlık",
+                            "url": "https://odnoklassniki.ru/videoembed/970539862532",
+                            "description": "Örnek bölüm açıklaması burada gözükür."
+                        },
+                        "episode10": {
+                            "name": "Örnek Başlık",
+                            "url": "https://odnoklassniki.ru/videoembed/970539862532",
+                            "description": "Örnek bölüm açıklaması burada gözükür."
+                        },
+                        "episode11": {
+                            "name": "Örnek Başlık",
+                            "url": "https://odnoklassniki.ru/videoembed/970539862532",
+                            "description": "Örnek bölüm açıklaması burada gözükür."
+                        },
+                        "episode12": {
+                            "name": "Örnek Başlık",
+                            "url": "https://odnoklassniki.ru/videoembed/970539862532",
+                            "description": "Örnek bölüm açıklaması burada gözükür."
                         }
                     }
                 },
                 "2": {
                     "name": "Season 2",
-                    "episodes": 12,
+                    "episodess": 12,
                     "date": "Jan 8, 2021",
                     "cover": "https://img1.ak.crunchyroll.com/i/spire2/8a6279fc503fe64b451a0e63afc658281610403545_full.jpg"
                 }
@@ -122,7 +172,7 @@
             "seasons": {
                 "1": {
                     "name": "91 Days",
-                    "episodes": 12,
+                    "episodess": 12,
                     "date":"Jul 9, 2016 - Oct 1, 2016",
                     "cover": "https://i.pinimg.com/736x/d5/28/ce/d528ce69cbd0d4d1c9941f502bc774d4.jpg"
                 }
@@ -196,7 +246,7 @@
                 "seasons": {
                 "1": {
                     "name": "Akame Ga Kill!",
-                    "episodes": 24,
+                    "episodess": 24,
                     "date": "Jul 7, 2014 - Dec 15, 2014",
                     "cover": "https://i.pinimg.com/550x/37/0d/b8/370db87083606d66ee4ce526f23620fd.jpg"
                 }
@@ -249,7 +299,7 @@
             "seasons": {
                 "1": {
                     "name": "Another",
-                    "episodes": 12,
+                    "episodess": 12,
                     "date": "Jan 10, 2012 - March 27, 2012",
                     "cover": "https://img1.ak.crunchyroll.com/i/spire1/6a63d28dc4193210a69c83f1fca67bf21325886769_full.jpg"
                 }
@@ -328,25 +378,25 @@
             "seasons": {
             "1": {
                 "name": "Tokyo Ghoul",
-                "episodes": 12,
+                "episodess": 12,
                 "date": null,
                 "cover": "https://m.media-amazon.com/images/M/MV5BN2E2OTgzODktMjBhYy00MjJjLWI0OTgtNGYxOGNhMWMxOWE4XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg"
             },
             "2": {
                 "name": "Tokyo Ghoul √A",
-                "episodes": 12,
+                "episodess": 12,
                 "date": null,
                 "cover": "https://static.wikia.nocookie.net/tokyoghoul/images/6/68/Season_Two_Box_Set_Cover.png/revision/latest?cb=20160218221525"
             },
             "3": {
                 "name": "Tokyo Ghoul:re",
-                "episodes": 12,
+                "episodess": 12,
                 "date": null,
                 "cover": "https://m.media-amazon.com/images/M/MV5BY2M4MGVjODgtYmY4OS00N2U4LTlkNzUtY2NjYzRiMTI3YjgwXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg"
             },
             "4": {
                 "name": "Tokyo Ghoul:re",
-                "episodes": 12,
+                "episodess": 12,
                 "date": null,
                 "cover": "https://m.media-amazon.com/images/M/MV5BY2M4MGVjODgtYmY4OS00N2U4LTlkNzUtY2NjYzRiMTI3YjgwXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg"
             }

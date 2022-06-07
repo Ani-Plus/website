@@ -63,7 +63,7 @@ app.get("/anime/watch/:name/:season/:episode", (req, res) => {
     let ep2 = episode - 1
     res.render(process.cwd() + "/views/watch", {anime, season, episode, dat, n, ep1, ep2})
 })
-app.get("/anime/:name/season/:season/", (req, res) => {
+app.get("/anime/:name/season/:season", (req, res) => {
   if(!animedata[req.params.name]) res.json({
     response: "Böyle bir sayfa bulunamadı."
   })
