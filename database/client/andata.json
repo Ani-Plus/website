@@ -57,7 +57,19 @@
                     "name": "Season 1",
                     "episodes": 12,
                     "date":"Jan 10, 2019",
-                    "cover": "https://i.pinimg.com/736x/c9/0e/bd/c90ebddf4bf51953f30c34c0df936777.jpg"
+                    "cover": "https://i.pinimg.com/736x/c9/0e/bd/c90ebddf4bf51953f30c34c0df936777.jpg",
+                    "episodes": {
+                        "episode1": {
+                            "name": "Eşsiz Beşizler",
+                            "url": "https://odnoklassniki.ru/videoembed/970539862532",
+                            "description": "Uesugi Fuutarou, normal maaşın beş katını vaat eden bir özel ders işi bulur. Görünüşe göre, işin beş katından fazlasını alacak."
+                        },
+                        "episode2": {
+                            "name": "Çatı İtirafı",
+                            "url": "https://odnoklassniki.ru/videoembed/976710994436",
+                            "description": "Futaro, beşizlerin bir öğretmene ihtiyacı olup olmadığı konusundaki tartışmayı çözmek için bir sınav önerir."
+                        }
+                    }
                 },
                 "2": {
                     "name": "Season 2",

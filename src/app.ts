@@ -41,22 +41,26 @@ app.get("/anime/:name", (req, res) => {
     res.render(process.cwd() + "/views/anime", {anime})
 })
 app.get("/anime/watch/:name/:season/:episode", (req, res) => {
-  if(!animedata[req.params.name]) res.redirect("/error")
-  let name:string = req.params.name.split("-").join(" ").replace(req.params.name.split("-").join(" ")[0], req.params.name.split("-").join(" ")[0].toUpperCase())
+  if(!animedata[req.params.name]) res.json({
+    response: "Böyle bir sayfa bulunamadı."
+  })
   let anime = {
-    name: name,
+    name: animedata[req.params.name]["names"]["en"],
     types: animedata[req.params.name]["manga"]["genres"].join("/"),
     description: animedata[req.params.name]["descriptions"]["tr"],
     cover: animedata[req.params.name]["manga"]["covers"]["last"],
-    background: "https://st2.depositphotos.com/3765753/5349/v/600/depositphotos_53491489-stock-illustration-example-rubber-stamp-vector-over.jpg",
-    year: animedata[req.params.name]["year"],
-    seasons: animedata[req.params.name]["anime"]["date"].split(" ")[2],
+    background: animedata[req.params.name]["design"].banner || "https://animecix.net/client/assets/images/default_episode_poster.jpg",
+    year: animedata[req.params.name]["anime"]["date"].split(" ")[2],
+    seasons: animedata[req.params.name]["anime"]["seasons"],
     seasonCount: animedata[req.params.name].anime.seasoncount
   }
     let season = req.params.season
-    let episode = req.params.episode
-    let dat = animedata[req.params.name]
-    res.render(process.cwd() + "/views/watch", {anime, season, episode, dat})
+    let episode = Number(req.params.episode)
+    let dat = animedata[req.params.name].anime.seasons
+    let n = req.params.name
+    let ep1 = episode + 1
+    let ep2 = episode - 1
+    res.render(process.cwd() + "/views/watch", {anime, season, episode, dat, n, ep1, ep2})
 })
 //////////////////////////////////
 app.listen(config.port)

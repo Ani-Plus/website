@@ -1,6 +1,6 @@
 const application = {
     maintance: false,
-    port: 8080
+    port: 3000
 }
 
 export default application

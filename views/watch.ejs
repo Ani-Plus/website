@@ -7,17 +7,17 @@
     <br>
     <br>
     <br>
-    <iframe src="<%= dat[`season${season}`][`episode${episode}`].url %>" style="padding-left: 225px;padding-right: 200px; width: 65%; height: 70%; " frameborder="0"></iframe>
+    <iframe src="<%= dat[`${season}`][`episodes`][`episode${episode}`].url %>" style="align-items: center; width: 65%; height: 70%; " frameborder="0"></iframe>
 </div>
 <br>
-<h2 style="padding-left: 200px;padding-right: 200px;"><%= anime.name %> - Sezon <%= season %> Bölüm <%= episode %></h2></a>
-<p style="padding-left: 200px;color: #57F287;padding-right: 200px;"><%= dat[`season${season}`][`episode${episode}`].name %>
+<h2 style="align-items: center; text-align: center;"><%= anime.name %> - Sezon <%= season %> Bölüm <%= episode %></h2></a>
+<p style="align-items: center; text-align: center;color: #57F287;"><%= dat[`${season}`]["episodes"][`episode${episode}`].name %>
 </p>
 <br>
-<p style="padding-left: 200px;padding-right: 200px;"><%= dat[`season${season}`][`episode${episode}`].description %></p>
+<p style="padding-left: 225px;padding-right: 225px;align-items: center; text-align: center;"><%= dat[`${season}`]["episodes"][`episode${episode}`].description %></p>
 <br>
 <br>
-<div style="padding-left: 200px;padding-right: 200px;">
+<div style="align-items: center; text-align: center;">
 <button onclick="prev()" class="button" title="Önceki Bölüm">Önceki Bölüm</button>
 <button onclick="next()" class="button" title="Sonraki Bölüm">Sonraki Bölüm</button>
 </div>
@@ -28,13 +28,13 @@
 <br>
 <script>
 function next() {
-  window.location.href = `/anime/watch/<%= anime.name %>/<%= season %>/${<%= episode %> + 1}`;
+  window.location.href = `<%= '/anime/watch/' + n + '/' + season + '/' + ep1 %>`;
 }
 function prev() {
-  window.location.href = `/anime/watch/<%= anime.name %>/<%= season %>/${<%= episode %> - 1}`;
+  window.location.href = `<%= ep2 == 0 ? '/anime/' + n : '/anime/watch/' + n + '/' + season + '/' + ep2 %>`;
 }
 </script>
-<div style="padding-left: 200px;padding-right: 200px;" id="disqus_thread"></div>
+<div style="align-items: center; text-align: center;" id="disqus_thread"></div>
 <script>
     (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
