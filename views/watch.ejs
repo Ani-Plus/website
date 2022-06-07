@@ -1,7 +1,16 @@
 <html>
     <%- include('links') %>
     <%- include('menu') %>
-
+<% 
+Object.size = function(obj) {
+  var size = 0,
+    key;
+  for (key in obj) {
+    if (obj.hasOwnProperty(key)) size++;
+  }
+  return size;
+};
+%>
 <title><%= anime.name %> <%= season %>. Sezon <%= episode %>. Bölüm - Ani+</title>
 <div align="left">
     <br>
@@ -19,7 +28,10 @@
 <br>
 <div style="align-items: center; text-align: center;">
 <button onclick="prev()" class="button" title="Önceki Bölüm">Önceki Bölüm</button>
+<% if(Object.size(anime.seasons) == episode) { %>
+<% }else{ %>
 <button onclick="next()" class="button" title="Sonraki Bölüm">Sonraki Bölüm</button>
+<% } %>
 </div>
 <br>
 <br>
@@ -34,7 +46,7 @@ function prev() {
   window.location.href = `<%= ep2 == 0 ? '/anime/' + n : '/anime/watch/' + n + '/' + season + '/' + ep2 %>`;
 }
 </script>
-<div style="align-items: center; text-align: center;" id="disqus_thread"></div>
+<div style="padding-left: 225px;padding-right: 225px;" id="disqus_thread"></div>
 <script>
     (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
