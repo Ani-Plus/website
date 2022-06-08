@@ -40,7 +40,8 @@ app.get("/anime/:name", (req, res) => {
       seasonCount: animedata[req.params.name].anime.seasoncount
     }
     let n = req.params.name
-    res.render(process.cwd() + "/views/anime", {anime, n})
+    let data = animedata[req.params.name]
+    res.render(process.cwd() + "/views/anime", {anime, n, data})
 })
 app.get("/anime/watch/:name/:season/:episode", (req, res) => {
   if(!animedata[req.params.name]) res.json({
