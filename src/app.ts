@@ -5,6 +5,7 @@ import config from "../application";
 import render from "../scripts/renderPage";
 import logger from "../utils/scripts/logger";
 const animedata = require("../database/client/andata.json");
+const listdata = require("../database/client/lists.json");
 
 logger("Ani+ is Ready!")
 //////////////////////////////////
@@ -81,6 +82,24 @@ app.get("/anime/:name/season/:season", (req, res) => {
     let dat = animedata[req.params.name].anime.seasons
     let n = req.params.name
     res.render(process.cwd() + "/views/season", {anime, season, dat, n})
+})
+app.get("/lists/:id", (req, res) => {
+  if(!listdata[req.params.id]) res.json({
+    response: "Böyle bir sayfa bulunamadı."
+  })
+  let list = {
+    name: listdata[req.params.id].name,
+    description: listdata[req.params.id].description,
+    author: {
+      name: listdata[req.params.id].author.name,
+      avatar: listdata[req.params.id].author.avatar,
+      id: listdata[req.params.id].author.id,
+      isMod: listdata[req.params.id].author.isMod //boolean
+    },
+    content: listdata[req.params.id].content
+  }
+  let anime = animedata
+  res.render(process.cwd() + "/views/list", {list, anime})
 })
 //////////////////////////////////
 app.listen(config.port)

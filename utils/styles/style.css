@@ -105,3 +105,9 @@ body {
 		padding-right:30px;
 		opacity: 0.8;
 	}
+	.avatar {
+		vertical-align:middle;
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+	  }

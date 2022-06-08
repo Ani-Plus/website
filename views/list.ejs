@@ -1,0 +1,27 @@
+<html>
+    <%- include('links') %>
+    <%- include('menu') %>
+    <script src="https://kit.fontawesome.com/e0330794a8.js" crossorigin="anonymous"></script>
+<title><%= list.name %> - Ani+</title>
+<br>
+<br>
+<br>
+<h1 style="padding-left: 225px;padding-right: 225px;"><%= list.name %></h2></a>
+<p style="padding-left: 225px;padding-right: 225px;"><%= list.description %></p>
+<img src="<%= list.author.avatar %>" style="padding-left: 225px;padding-right: 5px;" class="avatar"><a href="/user/<%= list.author.id %>" style="text-decoration: none;padding-right: 3px;color: #57F287"><%= list.author.name %>
+</a> <% if(list.author.isMod == true) { %> <i style="color: #5865F2;" class="fa-solid fa-hammer"></i> <% }else{ %> <% } %>
+<br>
+<br>
+<br>
+<div align="center" style="border-radius: 10px;width: 100%;padding-bottom: .25rem;background-color:#57F287;"></div>
+<br>
+<br>
+<br>
+<% list.content.forEach(element => { %>
+<a href="/anime/<%= element %>"><img style="text-align:center;padding-left: 200px;" src="<%= anime[element].manga.covers.last %>" class="image1" width="125" height="175"></a>
+<span style="padding-left:20px;position: absolute;">  <span style="color:#57F287;"><%= anime[element].names.en %></span><br><br>
+    <%= anime[element].descriptions.tr %><br><br>
+    <%= anime[element].manga.genres.join("/") %></span>
+    <br><br><br>
+<% }) %>
+</html>

@@ -17,7 +17,7 @@
         "manga": {
             "author": "Haruba Negi",
             "artist": "Haruba Negi",
-            "genres": ["Harem", "Romance", "Comedy", "Drama"],
+            "genres": ["Harem", "Romantik", "Komedi", "Dram"],
             "publisher": "Kodansha",
             "website": null,
             "date": "Aug 9, 2017 - Feb 19, 2020",
@@ -148,7 +148,7 @@
         "manga": {
             "author": null,
             "artist": null,
-            "genres": null,
+            "genres": ["Aksiyon", "Dram", "Psikolojik", "Gizem", "Trajedi", "Suç"],
             "publisher": null,
             "website": null,
             "date": null,
@@ -197,7 +197,7 @@
         "manga": {
             "author": "Takahiro",
             "artist": "Tashiro Tetsuya",
-            "genres": ["Action", "Drama", "Fantasy", "Horror", "Psychological", "Romance", "Tragedy"],
+            "genres": ["Aksiyon", "Dram", "Fantasy", "Korku", "Psikolojik", "Romantik", "Trajedi"],
             "publisher": "Square Enix",
             "website": "http://akame.tv/",
             "date": "March 20, 2010 - Dec 22, 2016",
@@ -271,7 +271,7 @@
         "manga": {
             "author" : "Ayatsuji Yukito",
             "artist": "Kiyohara Hiro",
-            "genres": ["Drama", "Horror", "Mystery", "Psychological", "Tragedy"],
+            "genres": ["Dram", "Korku", "Gizem", "Psikolojik", "Trajedi"],
             "publisher": "Kadokawa Shoten",
             "website": "www.kadokawa.co.jp/another/",
             "date": "May, 2010 - Jan, 2012",
@@ -324,7 +324,7 @@
         "manga": {
             "author": "Ishida Sui",
             "artist": "Ishida Sui",
-            "genres": ["Action", "Horror", "Psychological", "Tragedy"],
+            "genres": ["Aksiyon", "Korku", "Psikolojik", "Trajedi"],
             "publisher": "Shueisha",
             "website": "https://youngjump.jp/tokyoghoul/",
             "date": "Sep 8, 2011 - Jul 5, 2018",
