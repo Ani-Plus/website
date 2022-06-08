@@ -12,7 +12,7 @@ Object.size = function(obj) {
 };
 %>
 <title><%= anime.name %> <%= season %>. Sezon <%= episode %>. Bölüm - Ani+</title>
-<div align="left">
+<div align="center">
     <br>
     <br>
     <br>
@@ -28,7 +28,7 @@ Object.size = function(obj) {
 <br>
 <div style="align-items: center; text-align: center;">
 <button onclick="prev()" class="button" title="Önceki Bölüm">Önceki Bölüm</button>
-<% if(Object.size(dat[`${season}`].episodess) == episode) { %>
+<% if(dat[`${season}`].episodess == episode) { %>
 <% }else{ %>
 <button onclick="next()" class="button" title="Sonraki Bölüm">Sonraki Bölüm</button>
 <% } %>
