@@ -7,7 +7,7 @@
     <br>
     <br>
     <br>
-    <img style="padding-left:170px;" class="image1" width="250" height="350" src="<%= anime.cover %>">
+    <img class="image1" width="250" height="350" src="<%= anime.cover %>">
     <img class="banner" src="<%= anime.background %>">
     <br>
 </div>
@@ -38,32 +38,32 @@
 <h1 style="align-items: center; text-align: center;">Sezonlar (<%= anime.seasonCount %>)</h1></a>
 <br>
 <br>
-<a href="/anime/<%= n %>/season/1"><img style="text-align:center;padding-left: 200px;" src="<%= anime.seasons['1'].cover %>" class="image1" width="125" height="175"></a>
+<a href="/anime/<%= n %>/season/1"><img style="text-align:center;" src="<%= anime.seasons['1'].cover %>" class="image3" width="125" height="175"></a>
 <% if(!anime.seasons['2']) { %>
 <% }else{ %>
-<a href="/anime/<%= n %>/season/2"><img style="text-align:center;" src="<%= anime.seasons['2'].cover %>" class="image1" width="125" height="175"></a>  
+<a href="/anime/<%= n %>/season/2"><img style="text-align:center;" src="<%= anime.seasons['2'].cover %>" class="image2" width="125" height="175"></a>  
 <% } %>
 <% if(!anime.seasons['3']) { %>
 <% }else{ %>
-    <a href="/anime/<%= n %>/season/3"><img style="text-align:center;" src="<%= anime.seasons['3'].cover %>" class="image1" width="125" height="175"></a>
+    <a href="/anime/<%= n %>/season/3"><img style="text-align:center;" src="<%= anime.seasons['3'].cover %>" class="image2" width="125" height="175"></a>
 <% } %>
 <% if(!anime.seasons['4']) { %>
 <% }else{ %>
-    <a href="/anime/<%= n %>/season/4"><img style="text-align:center;" src="<%= anime.seasons['4'].cover %>" class="image1" width="125" height="175"></a>
+    <a href="/anime/<%= n %>/season/4"><img style="text-align:center;" src="<%= anime.seasons['4'].cover %>" class="image2" width="125" height="175"></a>
 <% } %>
 <br><br>
-<b style="padding-left: 200px;padding-right: 70px;">  <%= anime.seasons['1'].name %></b>    
+<b class="text1">  <%= anime.seasons['1'].name %></b>    
 <% if(!anime.seasons['2']) { %>
 <% }else{ %>
-<b style="padding-right: 30px;">  <%= anime.seasons['2'].name %></b>
+<b class="text2">  <%= anime.seasons['2'].name %></b>
 <% } %>
 <% if(!anime.seasons['3']) { %>
 <% }else{ %>
-    <b style="padding-right: 40px;">  <%= anime.seasons['3'].name %></b>
+    <b class="text3">  <%= anime.seasons['3'].name %></b>
  <% } %>
  <% if(!anime.seasons['4']) { %>
     <% }else{ %>
-        <b>  <%= anime.seasons['4'].name %></b>
+        <b class="text4">  <%= anime.seasons['4'].name %></b>
      <% } %>
 <br><br>
 <div style="padding-left: 225px;padding-right: 225px;" id="disqus_thread"></div>
