@@ -19,9 +19,6 @@
    document.getElementById("name").innerHTML = "<%= data.names.hepburn %> - <%= anime.year %>"
         }
     }
-    function genislet() {
-        document.getElementById("genislet").innerHTML = "<span style='color: #57F287'>Yönetmenler:</span> <%= data.anime.directors.join(', ') %><br><span style='color: #57F287'>Senarist:</span> <%= data.anime.scenarist %><br><span style='color: #57F287'>Müzik:</span> <%= data.anime.music.join(', ') %><br><span style='color: #57F287'>Stüdyo:</span> <%= data.anime.studios.join(', ') %><br><span style='color: #57F287'>Lisans:</span> <%= data.anime.license.join(', ') %><br><span style='color: #57F287'>Kanallar:</span> <%= data.anime.channel.join(', ') %><br><span style='color: #57F287'>Web Sitesi:</span> <a style='text-decoration: none;color: #5865F2;' href='<%= data.anime.website %>'> Tıkla! </a><br>"
-    }
 </script>
 <br>
 <h2 style="align-items: center; text-align: center;" id="name" onclick="name()"><%= anime.name %> - <%= anime.year %></h2></a>
@@ -30,7 +27,10 @@
 <br>
 <p style="padding-left: 225px;padding-right: 225px;align-items: center; text-align: center;"><%= anime.description %></p>
 <br>
-<p style="padding-left: 225px;padding-right: 225px;" id="genislet" onclick="genislet()"><span style="color: #5865F2">Daha Fazla Bilgi!</span></p>
+<details>
+<summary style="padding-left: 225px;padding-right: 225px;"><span style="color: #5865F2">Daha Fazla Bilgi!</span></summary>
+<p style="padding-left: 225px;padding-right: 225px;"><span style='color: #57F287'>Yönetmenler:</span> <%= data.anime.directors.join(', ') %><br><span style='color: #57F287'>Senarist:</span> <%= data.anime.scenarist %><br><span style='color: #57F287'>Müzik:</span> <%= data.anime.music.join(', ') %><br><span style='color: #57F287'>Stüdyo:</span> <%= data.anime.studios.join(', ') %><br><span style='color: #57F287'>Lisans:</span> <%= data.anime.license.join(', ') %><br><span style='color: #57F287'>Kanallar:</span> <%= data.anime.channel.join(', ') %><br><span style='color: #57F287'>Web Sitesi:</span> <a style='text-decoration: none;color: #5865F2;' href='<%= data.anime.website %>'> Tıkla! </a><br></p>
+</details>
 <br><br>
 <div align="center" style="border-radius: 10px;width: 100%;padding-bottom: .25rem;background-color:#57F287;"></div>
 <br>
