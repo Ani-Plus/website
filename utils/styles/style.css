@@ -14,6 +14,75 @@
 	color: var(--green);
 	background-color: var(--background);
 }
+.comments {
+	background-color: var(--background);
+	color: white;
+	border-radius: 5px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.comments .principle{
+	background-color: var(--dark);
+	border-radius: 5px;
+	padding: 15px;
+	color: white;
+	font-size: 20px;
+}
+.comments .principle h1, h2, h3, h4, h5, h6{
+	color: white;
+}
+.comments .pfp{
+	vertical-align:middle;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.comments .comment{
+	background-color: var(--dark);
+	padding: 15px;
+	color: white;
+	padding-left: 20px;
+}
+.comments .comment .text{
+	position: absolute;
+	color: white;
+	padding-left: 5px;
+}
+.comments .subcomment-derece1 .text{
+	position: absolute;
+	color: white;
+	padding-left: 5px;
+}
+.comments .subcomment-derece2 .text{
+	position: absolute;
+	color: white;
+	padding-left: 5px;
+}
+.comments .subcomment-derece1{
+	background-color: var(--dark);
+	padding: 10px;
+	color: white;
+	padding-left: 50px;
+}
+.comments .subcomment-derece2{
+	background-color: var(--dark);
+	padding: 15px;
+	color: white;
+	padding-left: 70px;
+}
+.comments .subcomment-derece1 .pfp{
+	vertical-align:middle;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.comments .subcomment-derece2 .pfp{
+	vertical-align:middle;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
 button {
 -webkit-user-select: none;
 background: var(--blurple);

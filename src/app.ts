@@ -6,6 +6,8 @@ import render from "../scripts/renderPage";
 import logger from "../utils/scripts/logger";
 const animedata = require("../database/client/andata.json");
 const listdata = require("../database/client/lists.json");
+const accountdata = require("../database/user/accounts.json");
+const commentdata = require("../database/client/comments.json");
 
 logger("Ani+ is Ready!")
 //////////////////////////////////
@@ -32,6 +34,7 @@ app.get("/anime/:name", (req, res) => {
     let anime = {
       name: animedata[req.params.name]["names"]["en"],
       types: animedata[req.params.name]["manga"]["genres"].join("/"),
+      date: animedata[req.params.name]["anime"]["date"].split("Jan").join("Ocak").split("Feb").join("Şubat").split("March").join("Mart").split("Apr").join("Nisan").split("May").join("Mayıs").split("Jun").join("Haziran").split("Jul").join("Temmuz").split("Aug").join("Ağustos").split("Sep").join("Eylül").split("Oct").join("Ekim").split("Nov").join("Kasım").split("Dec").join("Aralık").split(",").join("").split("Now").join("Hala Yayınlanıyor."),
       description: animedata[req.params.name]["descriptions"]["tr"],
       cover: animedata[req.params.name]["manga"]["covers"]["last"],
       background: animedata[req.params.name]["design"].banner || "https://animecix.net/client/assets/images/default_episode_poster.jpg",
@@ -39,9 +42,23 @@ app.get("/anime/:name", (req, res) => {
       seasons: animedata[req.params.name]["anime"]["seasons"],
       seasonCount: animedata[req.params.name].anime.seasoncount
     }
+    let comments;
+    try {
+    comments = {
+      principle: commentdata.principle, 
+      count: commentdata[`/anime/${req.params.name}`].commentscount, 
+      comments: commentdata[`/anime/${req.params.name}`].comments 
+    }
+  }catch(err) {
+    comments = {
+      principle: commentdata.principle, 
+      count: 0, 
+      comments: "{}"
+    }
+  }
     let n = req.params.name
     let data = animedata[req.params.name]
-    res.render(process.cwd() + "/views/anime", {anime, n, data})
+    res.render(process.cwd() + "/views/anime", {anime, n, data, comments})
 })
 app.get("/anime/watch/:name/:season/:episode", (req, res) => {
   if(!animedata[req.params.name]) res.json({
@@ -50,6 +67,7 @@ app.get("/anime/watch/:name/:season/:episode", (req, res) => {
   let anime = {
     name: animedata[req.params.name]["names"]["en"],
     types: animedata[req.params.name]["manga"]["genres"].join("/"),
+    date: animedata[req.params.name]["anime"]["date"].split("Jan").join("Ocak").split("Feb").join("Şubat").split("March").join("Mart").split("Apr").join("Nisan").split("May").join("Mayıs").split("Jun").join("Haziran").split("Jul").join("Temmuz").split("Aug").join("Ağustos").split("Sep").join("Eylül").split("Oct").join("Ekim").split("Nov").join("Kasım").split("Dec").join("Aralık").split(",").join("").split("Now").join("Hala Yayınlanıyor."),
     description: animedata[req.params.name]["descriptions"]["tr"],
     cover: animedata[req.params.name]["manga"]["covers"]["last"],
     background: animedata[req.params.name]["design"].banner || "https://animecix.net/client/assets/images/default_episode_poster.jpg",

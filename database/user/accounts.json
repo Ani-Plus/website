@@ -1,1 +1,9 @@
-{}
+{
+    "Falsis": {
+        "id": "000001",
+        "email": "falsiskremlin@gmail.com",
+        "password": "12345",
+        "avatar": "https://media.discordapp.net/attachments/775822548519616562/983956406996697118/unknown.png?size=4096",
+        "isMod": true
+    }
+}

@@ -25,6 +25,9 @@
 <p style="color: #57F287;align-items: center; text-align: center;"><%= anime.types %>
 </p>
 <br>
+<p style="color: #57F287;align-items: center; text-align: center;"><%= anime.date %><!-- .split(anime.date.split(" ")[1]).join(anime.date.split(" ")[0]).replace(anime.date.split(" ")[0], anime.date.split(" ")[1]) -->
+</p>
+<br>
 <p style="padding-left: 225px;padding-right: 225px;align-items: center; text-align: center;"><%= anime.description %></p>
 <br>
 <details>
@@ -66,7 +69,44 @@
         <b class="text4">  <%= anime.seasons['4'].name %></b>
      <% } %>
 <br><br>
-<div style="padding-left: 225px;padding-right: 225px;" id="disqus_thread"></div>
+<div class="comments">
+    <br><br>
+<div class="principle">
+<h2><i class="fa-solid fa-comments"></i> Ani+ Yorum İlkesi</h2> <%= comments.principle %>
+</div>
+<br>
+<br>
+<% if(comments.count == 0) { %>
+<center>Hiçbir yorum yapılmamış.</center>
+<% }else{ %>
+<h2> Yorumlar (<%= comments.count %>)</h2>
+<br>
+<div class="comment">
+    <img class="pfp" src="<%= comments.comments['01'].avatar %>"> <span class="text"><b><%= comments.comments['01'].username %> <% if(comments.comments['01'].isMod == true) { %> <i style="color: #5865F2;" class="fa-solid fa-hammer"></i> <% }else{ %> <% } %></b><br><%= comments.comments['01'].comment %><br><i class="fa-solid fa-thumbs-up"></i> <%= comments.comments['01'].likes %></span><br><br>
+</div>
+<% if(comments.comments['01'].replies == null) { %>
+<% }else{ %>
+<div class="subcomment-derece1">
+    <img class="pfp" src="<%= comments.comments['01'].replies['01'].avatar %>"> <span class="text"><b><%= comments.comments['01'].replies['01'].username %> <% if(comments.comments['01'].replies['01'].isMod == true) { %> <i style="color: #5865F2;" class="fa-solid fa-hammer"></i> <% }else{ %> <% } %></b><br><%= comments.comments['01'].replies['01'].comment %><br><i class="fa-solid fa-thumbs-up"></i> <%= comments.comments['01'].replies['01'].likes %></span><br><br>
+</div>
+<% if(comments.comments['01'].replies['01'].replies == null) { %>
+    <% }else{ %>
+<div class="subcomment-derece2">
+    <img class="pfp" src="<%= comments.comments['01'].replies['01'].replies['01'].avatar %>"> <span class="text"><b><%= comments.comments['01'].replies['01'].replies['01'].username %> <% if(comments.comments['01'].replies['01'].replies['01'].isMod == true) { %> <i style="color: #5865F2;" class="fa-solid fa-hammer"></i> <% }else{ %> <% } %></b><br><%= comments.comments['01'].replies['01'].replies['01'].comment %><br><i class="fa-solid fa-thumbs-up"></i> <%= comments.comments['01'].replies['01'].replies['01'].likes %></span><br><br>
+</div>
+<% } %>
+<% } %>
+<% if(!comments.comments['02']) { %>
+<% }else{ %>
+<div class="comment">
+    <img class="pfp" src="<%= comments.comments['02'].avatar %>"> <span class="text"><b><%= comments.comments['02'].username %> <% if(comments.comments['02'].isMod == true) { %> <i style="color: #5865F2;" class="fa-solid fa-hammer"></i> <% }else{ %> <% } %></b><br><%= comments.comments['02'].comment %><br><i class="fa-solid fa-thumbs-up"></i> <%= comments.comments['02'].likes %></span><br><br>
+</div>
+<% } %>
+<% } %>
+<br>
+<br>
+</div>
+<!-- <div style="padding-left: 225px;padding-right: 225px;" id="disqus_thread"></div>
 <script>
     (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
@@ -75,5 +115,5 @@
     (d.head || d.body).appendChild(s);
     })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> -->
 </html>
