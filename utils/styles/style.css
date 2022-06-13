@@ -82,7 +82,28 @@
 	height: 40px;
 	border-radius: 50%;
 }
-
+.cards {
+	padding-left: 50px;
+	padding-right: 50px
+}
+.cards .card {
+	background-color: var(--dark);
+	color: white;
+}
+.cards .card .text {
+	color: white;
+	font-family:  "Quicksand", sans-serif;
+	position: absolute;
+	padding: 20px;
+}
+.cards .card .image {
+	border-radius: 10px;
+	padding: 20px;
+	opacity: 1;
+	transition:all .5s;
+	-webkit-transition:all .5s;
+	-moz-transition:all .5s;
+}
 button {
 -webkit-user-select: none;
 background: var(--blurple);

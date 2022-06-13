@@ -1,8 +1,72 @@
 <html>
     <%- include('links') %>
     <%- include('menu') %>
+    <script>
+        function name() {
+            if(document.getElementById("name").textContent == "<%= data['another'].names.hepburn %> - <%= data['another'].anime['date'].split(' ')[2] %>") {
+                document.getElementById("name").innerHTML = "<%= data['another'].names.en %> - <%= data['another'].anime['date'].split(' ')[2] %>"
+            }else{
+       document.getElementById("name").innerHTML = "<%= data['another'].names.hepburn %> - <%= data['another'].anime['date'].split(' ')[2] %>"
+            }
+        }
+        function another() {
+  window.location.href = `/anime/another`;
+}
+        function nametwo() {
+            if(document.getElementById("nametwo").textContent == "<%= data['gotoubun'].names.hepburn %> - <%= data['gotoubun'].anime['date'].split(' ')[2] %>") {
+                document.getElementById("nametwo").innerHTML = "<%= data['gotoubun'].names.en %> - <%= data['gotoubun'].anime['date'].split(' ')[2] %>"
+            }else{
+       document.getElementById("nametwo").innerHTML = "<%= data['gotoubun'].names.hepburn %> - <%= data['gotoubun'].anime['date'].split(' ')[2] %>"
+            }
+        }
+        function gotoubun() {
+  window.location.href = `/anime/gotoubun`;
+}
+    </script>
     <br>
     <br>
     <br>
 <title>Ani+ - Türkçe Anime İzleme Platformu</title>
+<body>
+    <div class="cards">
+        <div class="card">
+           <img width="250" height="350" class="image" src="<%= data['another'].manga.covers.last %>">
+           <span class="text"><h4 id="name" onclick="name()"><%= data['another'].names.en %> - <%= data['another'].anime['date'].split(' ')[2] %></h4><br><b style="color:#57F287;"><%= data['another'].manga.genres.join(", ") %></b><br><br><q style="padding-right:15px;"><%= data['another'].descriptions.tr %></q><br><br>
+           <details>
+               <summary><span style="color: #5865F2">Daha Fazla Bilgi!</span></summary>
+               <p> <span style='color: #57F287'>Yönetmenler:</span> <%= data['another'].anime.directors.join(', ') %><br><span style='color: #57F287'>Senarist:</span> <%= data['another'].anime.scenarist %><br><span style='color: #57F287'>Müzik:</span> <%= data['another'].anime.music.join(', ') %><br><span style='color: #57F287'>Stüdyo:</span> <%= data['another'].anime.studios.join(', ') %><br><span style='color: #57F287'>Lisans:</span> <%= data['another'].anime.license.join(', ') %><br><span style='color: #57F287'>Kanallar:</span> <%= data['another'].anime.channel.join(', ') %><br><span style='color: #57F287'>Web Sitesi:</span> <a style='text-decoration: none;color: #5865F2;' href='<%= data['another'].anime.website %>'> Tıkla! </a><br></p>
+               </details>
+               <br>
+           </span>
+           <br>
+           <span style="padding-left: 20px;">
+           <button onclick="another()" class="button" title="Animeye Git">Animeye Git</button>
+           </span>
+           <br>
+           <br>
+        </div>
+   </div>
+   <br>
+   <br>
+   <div class="cards">
+    <div class="card">
+       <img width="250" height="350" class="image" src="<%= data['gotoubun'].manga.covers.last %>">
+       <span class="text"><h4 id="nametwo" onclick="nametwo()"><%= data['gotoubun'].names.en %> - <%= data['gotoubun'].anime['date'].split(' ')[2] %></h4><br><b style="color:#57F287;"><%= data['gotoubun'].manga.genres.join(", ") %></b><br><br><q style="padding-right:15px;"><%= data['gotoubun'].descriptions.tr %></q><br><br>
+       <details>
+           <summary><span style="color: #5865F2">Daha Fazla Bilgi!</span></summary>
+           <p> <span style='color: #57F287'>Yönetmenler:</span> <%= data['gotoubun'].anime.directors.join(', ') %><br><span style='color: #57F287'>Senarist:</span> <%= data['gotoubun'].anime.scenarist %><br><span style='color: #57F287'>Müzik:</span> <%= data['gotoubun'].anime.music.join(', ') %><br><span style='color: #57F287'>Stüdyo:</span> <%= data['gotoubun'].anime.studios.join(', ') %><br><span style='color: #57F287'>Lisans:</span> <%= data['gotoubun'].anime.license.join(', ') %><br><span style='color: #57F287'>Kanallar:</span> <%= data['gotoubun'].anime.channel.join(', ') %><br><span style='color: #57F287'>Web Sitesi:</span> <a style='text-decoration: none;color: #5865F2;' href='<%= data['gotoubun'].anime.website %>'> Tıkla! </a><br></p>
+           </details>
+           <br><br>
+       </span>
+       <br>
+       <span style="padding-left: 20px;">
+       <button onclick="gotoubun()" class="button" title="Animeye Git">Animeye Git</button>
+       </span>
+       <br>
+       <br>
+    </div>
+</div>
+<br>
+<br>
+</body>
 </html>

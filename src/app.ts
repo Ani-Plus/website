@@ -15,8 +15,8 @@ app.set("view engine", "ejs");
 app.set("views", process.cwd() + "/views")
 //////////////////////////////////
 app.get("/", function(req, res) {
-    let test: string = "Test Text"
-    res.render("index", {test})
+    let data = animedata
+    res.render("index", {data})
 })
 app.get("/style", function(req, res) {
     res.sendFile(process.cwd() + "/utils/styles/style.css")
