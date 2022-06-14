@@ -7,6 +7,7 @@ import logger from "../utils/scripts/logger";
 const animedata = require("../database/client/andata.json");
 const listdata = require("../database/client/lists.json");
 const accountdata = require("../database/user/accounts.json");
+import fs from 'fs';
 //commentdata
 
 logger("Ani+ is Ready!")
@@ -28,6 +29,7 @@ app.get("/error", (req, res) => {
   res.render("error")
 })
 app.get("/anime/:name", (req, res) => {
+  delete require.cache[require.resolve("../database/client/comments.json")]
   let commentdata:any = require(process.cwd() + "/database/client/comments.json")
   if(!animedata[req.params.name]) res.json({
     response: "Böyle bir sayfa bulunamadı."
