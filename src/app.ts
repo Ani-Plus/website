@@ -47,12 +47,14 @@ app.get("/anime/:name", (req, res) => {
     comments = {
       principle: commentdata.principle, 
       count: commentdata[`/anime/${req.params.name}`].commentscount, 
+      count1: commentdata[`/anime/${req.params.name}`].commentscount1,
       comments: commentdata[`/anime/${req.params.name}`].comments 
     }
-  }catch(err) {
+  }catch(error) {
     comments = {
       principle: commentdata.principle, 
       count: 0, 
+      count1: 1,
       comments: "{}"
     }
   }

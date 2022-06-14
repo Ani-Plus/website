@@ -81,26 +81,22 @@
 <% }else{ %>
 <h2> Yorumlar (<%= comments.count %>)</h2>
 <br>
+<% for(var i = 1;i < comments.count1;i++) { %>
 <div class="comment">
-    <img class="pfp" src="<%= comments.comments['01'].avatar %>"> <span class="text"><b><%= comments.comments['01'].username %> <% if(comments.comments['01'].isMod == true) { %> <i style="color: #5865F2;" class="fa-solid fa-hammer"></i> <% }else{ %> <% } %></b><br><%= comments.comments['01'].comment %><br><i class="fa-solid fa-thumbs-up"></i> <%= comments.comments['01'].likes %></span><br><br>
+    <img class="pfp" src="<%= comments.comments[`0${i}`].avatar %>"> <span class="text"><b><%= comments.comments[`0${i}`].username %> <% if(comments.comments[`0${i}`].isMod == true) { %> <i style="color: #5865F2;" class="fa-solid fa-hammer"></i> <% }else{ %> <% } %></b><br><%= comments.comments[`0${i}`].comment %><br><i class="fa-solid fa-thumbs-up"></i> <%= comments.comments[`0${i}`].likes %></span><br><br>
 </div>
-<% if(comments.comments['01'].replies == null) { %>
+<% if(comments.comments[`0${i}`].replies == null) { %>
 <% }else{ %>
 <div class="subcomment-derece1">
-    <img class="pfp" src="<%= comments.comments['01'].replies['01'].avatar %>"> <span class="text"><b><%= comments.comments['01'].replies['01'].username %> <% if(comments.comments['01'].replies['01'].isMod == true) { %> <i style="color: #5865F2;" class="fa-solid fa-hammer"></i> <% }else{ %> <% } %></b><br><%= comments.comments['01'].replies['01'].comment %><br><i class="fa-solid fa-thumbs-up"></i> <%= comments.comments['01'].replies['01'].likes %></span><br><br>
+    <img class="pfp" src="<%= comments.comments[`0${i}`].replies[`0${i}`].avatar %>"> <span class="text"><b><%= comments.comments[`0${i}`].replies[`0${i}`].username %> <% if(comments.comments[`0${i}`].replies[`0${i}`].isMod == true) { %> <i style="color: #5865F2;" class="fa-solid fa-hammer"></i> <% }else{ %> <% } %></b><br><%= comments.comments[`0${i}`].replies[`0${i}`].comment %><br><i class="fa-solid fa-thumbs-up"></i> <%= comments.comments[`0${i}`].replies[`0${i}`].likes %></span><br><br>
 </div>
-<% if(comments.comments['01'].replies['01'].replies == null) { %>
+<% if(comments.comments[`0${i}`].replies[`0${i}`].replies == null) { %>
     <% }else{ %>
 <div class="subcomment-derece2">
-    <img class="pfp" src="<%= comments.comments['01'].replies['01'].replies['01'].avatar %>"> <span class="text"><b><%= comments.comments['01'].replies['01'].replies['01'].username %> <% if(comments.comments['01'].replies['01'].replies['01'].isMod == true) { %> <i style="color: #5865F2;" class="fa-solid fa-hammer"></i> <% }else{ %> <% } %></b><br><%= comments.comments['01'].replies['01'].replies['01'].comment %><br><i class="fa-solid fa-thumbs-up"></i> <%= comments.comments['01'].replies['01'].replies['01'].likes %></span><br><br>
+    <img class="pfp" src="<%= comments.comments[`0${i}`].replies[`0${i}`].replies[`0${i}`].avatar %>"> <span class="text"><b><%= comments.comments[`0${i}`].replies[`0${i}`].replies[`0${i}`].username %> <% if(comments.comments[`0${i}`].replies[`0${i}`].replies[`0${i}`].isMod == true) { %> <i style="color: #5865F2;" class="fa-solid fa-hammer"></i> <% }else{ %> <% } %></b><br><%= comments.comments[`0${i}`].replies[`0${i}`].replies[`0${i}`].comment %><br><i class="fa-solid fa-thumbs-up"></i> <%= comments.comments[`0${i}`].replies[`0${i}`].replies[`0${i}`].likes %></span><br><br>
 </div>
 <% } %>
 <% } %>
-<% if(!comments.comments['02']) { %>
-<% }else{ %>
-<div class="comment">
-    <img class="pfp" src="<%= comments.comments['02'].avatar %>"> <span class="text"><b><%= comments.comments['02'].username %> <% if(comments.comments['02'].isMod == true) { %> <i style="color: #5865F2;" class="fa-solid fa-hammer"></i> <% }else{ %> <% } %></b><br><%= comments.comments['02'].comment %><br><i class="fa-solid fa-thumbs-up"></i> <%= comments.comments['02'].likes %></span><br><br>
-</div>
 <% } %>
 <% } %>
 <br>
