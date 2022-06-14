@@ -6,7 +6,7 @@
             "comments": {
             "01": {
                     "username": "Falsis",
-                    "avatar": "https://media.discordapp.net/attachments/775822548519616562/983956406996697118/unknown.png?size=4096",
+                    "avatar": "https://cdn.discordapp.com/attachments/775822548519616562/986227310694924318/ezgif-5-d23b9df006.gif",
                     "isMod": true,
                     "likes": 3,
                     "comment": "Komedi ve Romantizm animeleri kapsamında değerlendirildiğinde; güzel, hoş, sürükleyici bir anime. Başyapıt olarak sayılmasa bile izlenebilir. Tavsiye ediyorum!",
@@ -31,22 +31,23 @@
             },
             "02": {
                 "username": "Falsis",
-                "avatar": "https://media.discordapp.net/attachments/775822548519616562/983956406996697118/unknown.png?size=4096",
+                "avatar": "https://cdn.discordapp.com/attachments/775822548519616562/986227310694924318/ezgif-5-d23b9df006.gif",
                 "isMod": true,
-                "likes": 31,
-                "comment": "Bu da başka bir yorum :sunglasses:",
+                "likes": 10,
+                "comment": "Test Yorumu",
                 "replies": null
         }
         }
         },
         "/anime/tokyo-ghoul": {
             "commentscount": 1,
+            "commentscount1": 2,
             "comments": {
                 "01": {
                     "username": "Falsis",
-                    "avatar": "https://media.discordapp.net/attachments/775822548519616562/983956406996697118/unknown.png?size=4096",
+                    "avatar": "https://cdn.discordapp.com/attachments/775822548519616562/986227310694924318/ezgif-5-d23b9df006.gif",
                     "isMod": true,
-                    "likes": 121,
+                    "likes": 120,
                     "comment": "Kaneki oğlum Kaneki, Kaneki napıyorsun koçum mal mısın?!?!",
                     "replies": null
                 }
