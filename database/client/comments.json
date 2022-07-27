@@ -1,5 +1,19 @@
 {
     "principle": "Sitemizde Herhangi Bir Yoruma Saygı çerçevesi ve görgü kurallarının dışında bulunan kelimeler yazarsanız. Hesabınız sitemizden yasaklanabilir.",
+    "/anime/kimi-no-na-wa": {
+        "commentscount": "1",
+        "commentscount1": "2",
+        "comments": {
+            "01": {
+                "username": "Falsis",
+                "avatar": "https://cdn.discordapp.com/attachments/775822548519616562/986227310694924318/ezgif-5-d23b9df006.gif",
+                "isMod": true,
+                "likes": 7,
+                "comment": "En iyi anime filmi desem karşı çıkan olmaz herhalde?",
+                "replies": null
+            }
+        }
+    },
         "/anime/gotoubun" : {
             "commentscount": "2",
             "commentscount1": "3",
