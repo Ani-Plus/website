@@ -1,33 +1,13 @@
 {
     "name": "aniplus",
-    "version": "0.0.1",
-    "description": "aniplus",
-    "main": "./src/app.ts",
     "scripts": {
-        "start": "npx ts-node ./src/app.ts",
-        "run": "npx tsc ./src/app.ts && node ./src/app.ts"
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "generate": "nuxt generate",
+        "start": "nuxt start"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/ani-plus/website.git"
-    },
-    "author": "ani+ team",
-    "license": "Apache-2.0",
-    "bugs": {
-        "url": "https://github.com/ani-plus/website/issues"
-    },
-    "homepage": "https://github.com/ani-plus/website#readme",
     "dependencies": {
-        "axios": "^0.27.2",
-        "cors": "^2.8.5",
-        "ejs": "^3.1.8",
-        "express": "^4.17.1",
-        "moment": "^2.29.1",
-        "ts-node": "^10.8.1",
-        "typescript": "^4.7.3"
-    },
-    "devDependencies": {
-        "@types/express": "^4.17.13",
-        "@types/node": "^17.0.40"
+        "@nuxtjs/axios": "^5.13.6",
+        "nuxt": "^2.15.8"
     }
 }
