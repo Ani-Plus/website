@@ -1,0 +1,38 @@
+uploadedSeasonCount: 1 #yakında 2 veya 3
+uploadedEpisodeCount: 3 # yakında 16 veya 17
+seasons:
+  season1:
+    seasonName: "1. Sezon"
+    episodeCount: 12
+    startDate: "12 Temmuz 2017"
+    endDate: "27 Eylül 2017"
+    description: "Kōdo Ikusei Lisesi, ayrıcalıklarla dolu bir okuldur. Bu okulda giyim, kuşam, saç tarzı, takılar vb... gibi konuların bir önemi yoktur. Her şey sizin yaratıcılığınıza bırakılmıştır. Ülkedeki en gelişmiş tesislere sahip olan Ikusei Lisesi'nin öğrencileri, üniversiteye girme ya da iş bulma konusunda neredeyse hiçbir zaman sıkıntı çekmemektedir. Kısacası bu lise tam da hayallerinizdeki gibidir. Tek bir farkla. Bu ayrıcalıklardan yalnızca en üstün öğrenciler faydalanmaktadır.rnKahramanımız Kiyotaka Ayanokōji da bu liseye kayıt olmak için başvuranlar arasındadır. Fakat dikkatsizliği yüzünden başarısız olarak 'çöplerin sınıfı' olarak adlandırılan D sınıfına atılır. Ne var ki burada tanıştığı Suzune Horikit, Kikyō Kushida ve diğer iki öğrenciyle beraber Kiyotaka’nın durumu da yavaşça değişmeye başlayacaktır."
+    seasonCover: "https://image.tmdb.org/t/p/w300/8BtSk9DGIlS24otIB3qCagVCI6W.jpg"
+    episodes:
+      episode1:
+        episodeName: "Kötü olan Nedir? --- Zayıflıktan Kaynaklanan Her Şey."
+        episodeDate: "12 Temmuz 2017"
+        episodePreview: "https://image.tmdb.org/t/p/w300/9x4zR7c8575mXUMNFo0jJE75Eun.jpg"
+        description: "Sessiz, Sakin, Normal bir lise hayatı yaşamak isteyen Ayanokoji Kiyotaka'nın ilginç lise hayatı, ayrıcalıklarla dolu Kodo Ikusei Lisesi'nde başlıyor!"
+        fansubs: ["PuzzleFansub", "PuzzleFansub"]
+        urls:
+          PuzzleFansub: "https://video.sibnet.ru/shell.php?videoid=4323387"
+          PuzzleFansubSource: "Sibnet"
+      episode2:
+        episodeName: "Birisinin yeteneğini gizlemek, büyük yetenek ister."
+        episodeDate: "20 Temmuz 2017"
+        episodePreview: "https://image.tmdb.org/t/p/w300/xFwvFgtr9k9Y8C13CGuJ0BvNaCL.jpg"
+        description: "Herhangi bir açıklama bulunamadı."
+        fansubs: ["PuzzleFansub", "PuzzleFansub"]
+        urls:
+          PuzzleFansub: "https://video.sibnet.ru/shell.php?videoid=4230631"
+          PuzzleFansubSource: "Sibnet"
+      episode3:
+        episodeName: "İnsanlar, pazarlık yapan hayvanlardır. Başka hiçbir hayvan bunu yapmaz -- hiçbir köpek, kemiğini başka bir şeyle değişmez."
+        episodeDate: "27 Temmuz 2017"
+        episodePreview: "https://image.tmdb.org/t/p/w300/2kaeokG53dUQDqOdEXDP2JkUuAj.jpg"
+        description: "Herhangi bir açıklama bulunamadı."
+        fansubs: ["PuzzleFansub", "PuzzleFansub"]
+        urls:
+          PuzzleFansub: "https://video.sibnet.ru/shell.php?videoid=4230635"
+          PuzzleFansubSource: "Sibnet"

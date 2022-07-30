@@ -15,7 +15,7 @@
 <span class="text">
     <h2>{{ defname }}</h2>
     {{ info.data.dates.from }} - {{ info.data.dates.to }}<br>
-    <i style="font-size: 15px;color:yellow;" class="fa-solid fa-star"></i> {{ info.data.mal.score }} / 10 <a class="link" :href="info.data.mal.url">(MyAnimeList)</a><br> <i style="font-size: 15px;color:royalblue;" class="fa-solid fa-bookmark"></i>  <a href="#sezonlar">{{ info.data.seasonCount }} Sezon</a> - {{ info.data.episodeCount }} Bölüm <br> <i style="font-size: 15px;color:palevioletred;" class="fa-solid fa-eye"></i> {{ info.data.type.replaceAll("TV", "Dizi") }}<br>
+    <i style="font-size: 15px;color:yellow;" class="fa-solid fa-star"></i> {{ info.data.mal.score }} / 10 <a class="link" :href="info.data.mal.url">(MyAnimeList)</a><br> <i style="font-size: 15px;color:royalblue;" class="fa-solid fa-bookmark"></i>  <NuxtLink to="#sezonlar">{{ info.data.seasonCount }} Sezon</NuxtLink> - {{ info.data.episodeCount }} Bölüm <br> <i style="font-size: 15px;color:palevioletred;" class="fa-solid fa-eye"></i> {{ info.data.type.replaceAll("TV", "Dizi") }}<br>
     <span v-for="item of info.data.genres" class="genres">{{ item }}</span><br>
     <i style="font-size:13px;color:paleturquoise;" class="fa-solid fa-circle"></i> <span style="font-size: 15px;">{{ info.data.isCompleted ? "TAMAMLANDI" : "YAYINLANIYOR" }}</span><br>
     <i style="font-size:13px;color:palevioletred;" class="fa-solid fa-circle"></i> <span style="font-size: 15px;">Bölüm Başına Ortalama {{ info.data.minsPerEP }} dakika</span>
@@ -52,7 +52,8 @@ let ids = {
     "38101": "go-toubun-no-hanayome",
     "32998": "91days",
     "22199": "akamegakill",
-    "11111": "another"
+    "11111": "another",
+    "35507": "classroom-of-the-elite"
 }
 export default {
     head() {
@@ -92,6 +93,7 @@ export default {
             const fs = require('fs');
             const path = require('path');
             const YAML = require('yaml');
+            let ids = JSON.parse(fs.readFileSync(path.join(process.cwd(), "/database/ids.json")))
             if(!fs.existsSync(path.join(`${process.cwd()}`, `/database/${this.$route.params.id}.yaml`))) {
             database = null
             }else{

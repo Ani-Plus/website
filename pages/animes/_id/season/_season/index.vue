@@ -48,7 +48,8 @@ let ids = {
     "38101": "go-toubun-no-hanayome",
     "32998": "91days",
     "22199": "akamegakill",
-    "11111": "another"
+    "11111": "another",
+    "35507": "classroom-of-the-elite"
 }
 export default {
     head() {
@@ -89,6 +90,7 @@ export default {
             const fs = require('fs');
             const path = require('path');
             const YAML = require('yaml');
+            let ids = JSON.parse(fs.readFileSync(path.join(process.cwd(), "/database/ids.json")))
             if(!fs.existsSync(path.join(`${process.cwd()}`, `/database/${this.$route.params.id}.yaml`))) {
             database = null
             }else{
