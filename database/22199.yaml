@@ -2,8 +2,9 @@ uploadedSeasonCount: 1
 uploadedEpisodeCount: 3
 seasons:
   season1:
-    seasonName: "Akame ga Kill!"
+    seasonName: "1. Sezon"
     episodeCount: 24
+    uploadedEpisodeCount: 3
     startDate: "07 Temmuz 2014"
     endDate: "15 Aralık 2014"
     description: "Tatsumi, kırsal kesimde yaşayan genç ve güçlü bir savaşçıdır. O ve 2 arkadaşı fakir köyleri için para kazanma hayali ile imparatorluk başkentine doğru yola çıkarlar. Ancak, büyük umutlarla geldikleri başkent, hiç de düşündükleri gibi çıkmayacaktır. Başkentin acımasızlığı ile yüzleştikten sonra hiç de düşündüğü bir yer olmadığını anlayan Tatsumi'nin yolu, bir olay sırasında Akame ve Night Raid adlı suikast örgütü ile kesişir."

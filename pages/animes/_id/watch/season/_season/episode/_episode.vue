@@ -7,7 +7,7 @@
 <template>
 <main>
 <div class="location">
-     <NuxtLink to="/">Ana Sayfa</NuxtLink> > <NuxtLink to="/animes">Animeler</NuxtLink> > <NuxtLink :to="`/animes/${id}`">{{ defname }}</NuxtLink> > <NuxtLink :to="`/animes/season/${season}`">{{ season }}.Sezon</NuxtLink> > <NuxtLink :to="`/animes/season/${season}/episode/${episode}`">{{ episode }}.Bölüm</NuxtLink>
+     <a href="/">Ana Sayfa</a> > <a href="/animes">Animeler</a> > <a :href="`/animes/${id}`">{{ defname }}</a> > <a :href="`/animes/${id}/season/${season}`">{{ season }}.Sezon</a> > <a :href="`/animes/season/${season}/episode/${episode}`">{{ episode }}.Bölüm</a>
 </div>
 <div class="line"></div><br>
 <div class="card">
@@ -36,13 +36,6 @@ let imagesQueries = [
     "type",
     "order"
 ]
-let ids = {
-    "38101": "go-toubun-no-hanayome",
-    "32998": "91days",
-    "22199": "akamegakill",
-    "11111": "another",
-    "35507": "classroom-of-the-elite"
-}
 export default {
     head() {
         return{
@@ -65,8 +58,8 @@ export default {
       },
     data() {
         return{
-            cover: `${imagesURL}?${imagesQueries[0]}=${ids[String(this.$route.params.id)]}&${imagesQueries[1]}=cover`,
-            banner: `${imagesURL}?${imagesQueries[0]}=${ids[String(this.$route.params.id)]}&${imagesQueries[1]}=banner`,
+            cover: '',
+            banner: '',
             info: [],
             defname: [],
             id: this.$route.params.id,
@@ -106,17 +99,20 @@ export default {
     async fetch() {
         try {
           let database;
+          let ids;
             if (process.server) {
             const fs = require('fs');
             const path = require('path');
             const YAML = require('yaml');
-            let ids = JSON.parse(fs.readFileSync(path.join(process.cwd(), "/database/ids.json")))
+            ids = JSON.parse(fs.readFileSync(path.join(process.cwd(), "/database/ids.json")))
             if(!fs.existsSync(path.join(`${process.cwd()}`, `/database/${this.$route.params.id}.yaml`))) {
             database = null
             }else{
             database = YAML.parse(fs.readFileSync(path.join(`${process.cwd()}`, `/database/${this.$route.params.id}.yaml`), "utf-8"))
             }
             }
+            this.cover = `${imagesURL}?${imagesQueries[0]}=${ids[String(this.$route.params.id)]}&${imagesQueries[1]}=cover`
+            this.banner = `${imagesURL}?${imagesQueries[0]}=${ids[String(this.$route.params.id)]}&${imagesQueries[1]}=banner`
             this.database = database
             let db = database['seasons'][`season${this.$route.params.season}`]['episodes'][`episode${this.$route.params.episode}`]
             this.epdata = db
