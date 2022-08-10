@@ -13,7 +13,7 @@
 <div class="card">
     <iframe id="vid" width="560" height="315" :src="epdata['urls'][epdata['fansubs'][0]]" frameborder="0" allow="autoplay" allowfullscreen></iframe>
     <span class="text">
-        <h2>{{ epdata["episodeName"] }}</h2>
+        <h3>{{ epdata["episodeName"] }}</h3>
         {{ epdata["episodeDate"] }}<br>
         <i style="font-size: 15px;color:palevioletred;" class="fa-solid fa-eye"></i> Bölüm<br>
         <i style="font-size:13px;color:paleturquoise;" class="fa-solid fa-circle"></i> <span id="subs" style="font-size: 15px;">{{ epdata["fansubs"][0] }}</span><br><br>
@@ -89,7 +89,7 @@ export default {
               }
             },
       next() {
-            if(this.database.uploadedEpisodeCount == this.$route.params.episode) {
+            if(this.database.seasons[`season${this.$route.params.season}`].uploadedEpisodeCount == this.$route.params.episode) {
               window.location.href = `/animes/${this.$route.params.id}`
             }else{
               window.location.href = `/animes/${this.$route.params.id}/watch/season/${this.$route.params.season}/episode/${parseInt(this.$route.params.episode) + 1}`

@@ -47,6 +47,12 @@ export default {
         }
     ],
     modules: ['@nuxtjs/axios'],
+    /*auth: {
+      //options
+    },
+    router: {
+      middleware: ['auth']
+    },*/
     target: 'static',
     css: ['~/assets/css/main.css'],
     devServerHandlers: []

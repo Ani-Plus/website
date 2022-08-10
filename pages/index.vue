@@ -6,7 +6,7 @@
 -->
 <template>
 <h1>
-    <NuxtLink to="/animes/22199">{{ test }}</NuxtLink>
+    <a href="/animes/22199">{{ test }}</a>
 </h1>
 </template>
 <script>
@@ -22,6 +22,7 @@ let infoQueries = [
     "name"
 ]
 export default {
+    auth: 'guest',
     head() {
         return{
             title: "Anasayfa - Ani+"

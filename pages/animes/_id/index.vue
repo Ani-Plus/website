@@ -23,11 +23,11 @@
 <p>{{ info.data.descriptions.tr }}</p>
 </div>
 <div class="line"></div>
-<div v-for="item in Object.keys(database.seasons)" class="card">
+<div class="card">
 <h2 id="sezonlar">Sezonlar ({{ info.data.seasonCount }})</h2>
-<NuxtLink :to="`/animes/${id}/season/${parseInt(Object.keys(database.seasons).indexOf(item)) + 1}`"><img :src="database.seasons[`${item}`].seasonCover" class="seasoncover"></NuxtLink>
+<a v-for="item in Object.keys(database.seasons)" :href="`/animes/${id}/season/${parseInt(Object.keys(database.seasons).indexOf(item)) + 1}`"><img :src="database.seasons[`${item}`].seasonCover" class="seasoncover"></a>
 <br>
-<span class="seasoname">{{ database.seasons[`${item}`].seasonName }}</span>
+<span v-for="item in Object.keys(database.seasons)" class="seasoname">{{ database.seasons[`${item}`].seasonName }}</span>
 </div>
 <br><br>
 <div class="line"></div>
