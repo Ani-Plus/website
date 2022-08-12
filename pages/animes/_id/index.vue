@@ -96,10 +96,10 @@ export default {
             if(!ids[this.$route.params.id]) {
               database = null
             }else{
-            if(!fs.existsSync(path.join(`${process.cwd()}`, `/database/${this.$route.params.id}.yaml`))) {
+            if(!fs.existsSync(path.join(`${process.cwd()}`, `/database/animes/${this.$route.params.id}.yaml`))) {
             database = null
             }else{
-            database = YAML.parse(fs.readFileSync(path.join(`${process.cwd()}`, `/database/${this.$route.params.id}.yaml`), "utf-8"))
+            database = YAML.parse(fs.readFileSync(path.join(`${process.cwd()}`, `/database/animes/${this.$route.params.id}.yaml`), "utf-8"))
             }
             }
             }

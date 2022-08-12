@@ -95,10 +95,10 @@ export default {
             const path = require('path');
             const YAML = require('yaml');
             ids = JSON.parse(fs.readFileSync(path.join(process.cwd(), "/database/ids.json")))
-            if(!fs.existsSync(path.join(`${process.cwd()}`, `/database/${this.$route.params.id}.yaml`))) {
+            if(!fs.existsSync(path.join(`${process.cwd()}`, `/database/animes/${this.$route.params.id}.yaml`))) {
             database = null
             }else{
-            database = YAML.parse(fs.readFileSync(path.join(`${process.cwd()}`, `/database/${this.$route.params.id}.yaml`), "utf-8"))
+            database = YAML.parse(fs.readFileSync(path.join(`${process.cwd()}`, `/database/animes/${this.$route.params.id}.yaml`), "utf-8"))
             }
             }
             this.cover = `${imagesURL}?${imagesQueries[0]}=${ids[String(this.$route.params.id)]}&${imagesQueries[1]}=cover`

@@ -1,0 +1,13 @@
+name: "En Son Yüklenen Animeler."
+ownerID: "000001"
+listID: 000001
+creationDate: "11 Ağustos 2022"
+creationTime: "13.50"
+lastUpdateDate: "11 Ağustos 2022"
+lastUpdateTime: "14.01"
+isSecret: false
+description: "Ani+ Web Sitesine En Son Yüklenen Animeler!"
+animeCount: 2
+animes: ["22199", "35507"]
+likes: 1
+isVerified: true

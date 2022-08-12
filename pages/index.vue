@@ -5,9 +5,9 @@
 -------------------------------------------------
 -->
 <template>
-<h1>
-    <a href="/animes/22199">{{ test }}</a>
-</h1>
+<div align="center" class="mainanimes">
+
+</div>
 </template>
 <script>
 let baseURL = `https://cdn3.falsisdev.repl.co`;
