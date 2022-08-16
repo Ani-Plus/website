@@ -24,6 +24,14 @@
     border-radius: 50%;
     padding: 2px;
   }
+.profileavatar {
+    vertical-align: middle;
+    border: 1px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+}
 * {
     background-color:#080808;
     color: white;
