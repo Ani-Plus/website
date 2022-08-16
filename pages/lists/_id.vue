@@ -12,7 +12,7 @@
             </span>
             <span style="font-size: 10px;">
             <br>
-            <img :src="av" class="avatar"><a style="text-decoration: none;" :href="`/profiles/${ownerid}`"><b>{{ uname }}</b></a>  ( <i v-if="isMod == true" style="color: #BDAAF9" class="fa-solid fa-hammer"></i> )  tarafından - <span v-if="isSecret == true"><i class="fa-solid fa-lock" style="padding-right: 2px;"></i> Gizli </span> <span v-else> <i class="fa-solid fa-lock-open" style="padding-right: 2px;"></i> Herkese Açık </span> - {{ count }} İçerik - <i class="fa-solid fa-heart" style="padding-right: 2px;"></i>  {{ likes }} Beğenme <span v-if="isVerified == true"> -  <i class="fa-solid fa-check" style="padding-right: 2px;"></i> Doğrulanmış Liste</span> <span v-else></span>
+            <img :src="av" class="avatar"><a style="text-decoration: none;" :href="`/profiles/${ownerid}`"><b>{{ uname }}</b></a>  ( <i v-if="isMod == true" style="color: #BDAAF9;font-size: 15px;" class="fa-solid fa-hammer"></i> )  tarafından - <span v-if="isSecret == true"><i class="fa-solid fa-lock" style="padding-right: 2px;"></i> Gizli </span> <span v-else> <i class="fa-solid fa-lock-open" style="padding-right: 2px;"></i> Herkese Açık </span> - {{ count }} İçerik - <i class="fa-solid fa-heart" style="padding-right: 2px;"></i>  {{ likes }} Beğenme <span v-if="isVerified == true"> -  <i class="fa-solid fa-check" style="padding-right: 2px;"></i> Doğrulanmış Liste</span> <span v-else></span>
             </span>
         </h2>
         <div class="line"></div>

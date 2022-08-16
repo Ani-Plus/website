@@ -16,7 +16,8 @@
         <h3>{{ epdata["episodeName"] }}</h3>
         {{ epdata["episodeDate"] }}<br>
         <i style="font-size: 15px;color:palevioletred;" class="fa-solid fa-eye"></i> Bölüm<br>
-        <i style="font-size:13px;color:paleturquoise;" class="fa-solid fa-circle"></i> <span id="subs" style="font-size: 15px;">{{ epdata["fansubs"][0] }}</span><br><br>
+        <i style="font-size:13px;color:paleturquoise;" class="fa-solid fa-circle"></i> <span id="subs" style="font-size: 15px;">{{ epdata["fansubs"][0] }}</span><br>
+        <img :src="uploader.userAvatar" class="avatar"><a style="text-decoration: none;" :href="`/profiles/${uploader.id}`"><b>{{ uploader.name }}</b></a>  ( <i v-if="uploader.isMod == true" style="color: #BDAAF9;font-size: 15px;" class="fa-solid fa-hammer"></i> )  tarafından yüklendi.<br><br>
          <button id="subselect" @click="subselect">{{epdata["fansubs"][1] }}</button><br><br>
          <button @click="prev" class="button" title="Önceki Bölüm">Önceki Bölüm</button> <button @click="next" class="button" title="Sonraki Bölüm">Sonraki Bölüm</button>
              </span>
@@ -67,6 +68,7 @@ export default {
             episode: this.$route.params.episode,
             database: [],
             epdata: [],
+            uploader: {}
         }
     },
     methods: {
@@ -100,6 +102,7 @@ export default {
         try {
           let database;
           let ids;
+          let uploader;
             if (process.server) {
             const fs = require('fs');
             const path = require('path');
@@ -110,7 +113,14 @@ export default {
             }else{
             database = YAML.parse(fs.readFileSync(path.join(`${process.cwd()}`, `/database/animes/${this.$route.params.id}.yaml`), "utf-8"))
             }
+            uploader = {
+               name: YAML.parse(fs.readFileSync(path.join(`${process.cwd()}`, `/database/profiles/${database['seasons'][`season${this.$route.params.season}`]['episodes'][`episode${this.$route.params.episode}`].uploaderID}.yaml`), "utf-8")).username,
+               id: database['seasons'][`season${this.$route.params.season}`]['episodes'][`episode${this.$route.params.episode}`].uploaderID,
+               userAvatar: YAML.parse(fs.readFileSync(path.join(`${process.cwd()}`, `/database/profiles/${database['seasons'][`season${this.$route.params.season}`]['episodes'][`episode${this.$route.params.episode}`].uploaderID}.yaml`), "utf-8")).useravatar,
+               isMod: YAML.parse(fs.readFileSync(path.join(`${process.cwd()}`, `/database/profiles/${database['seasons'][`season${this.$route.params.season}`]['episodes'][`episode${this.$route.params.episode}`].uploaderID}.yaml`), "utf-8")).isMod
             }
+            }
+            this.uploader = uploader
             this.cover = `${imagesURL}?${imagesQueries[0]}=${ids[String(this.$route.params.id)]}&${imagesQueries[1]}=cover`
             this.banner = `${imagesURL}?${imagesQueries[0]}=${ids[String(this.$route.params.id)]}&${imagesQueries[1]}=banner`
             this.database = database

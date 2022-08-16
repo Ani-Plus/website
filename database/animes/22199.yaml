@@ -13,6 +13,7 @@ seasons:
       episode1:
         episodeName: "Karanlığı Öldür."
         episodeDate: "07 Temmuz 2014"
+        uploaderID: "000001"
         episodePreview: "https://image.tmdb.org/t/p/w300/IqFfcllc7Jsu3IoABjA8Mo0qq3.jpg"
         description: "Tatsumi, kırsal kesimde yaşayan genç ve güçlü bir savaşçıdır. O ve 2 arkadaşı fakir köyleri için para kazanma hayali ile imparatorluk başkentine doğru yola çıkarlar. Ancak, büyük umutlarla geldikleri başkent, hiç de düşündükleri gibi çıkmayacaktır. Başkentin acımasızlığı ile yüzleştikten sonra hiç de düşündüğü bir yer olmadığını anlayan Tatsumi'nin yolu, bir olay sırasında Akame ve Night Raid adlı suikast örgütü ile kesişir. Bu bozulmuş topluluk karşısındaki devrimcilerin suikast kolu olan Night Raid'e katılma kararı alan Tatsumi, artık Night Raid'in yanında başkente karşı savaşacaktır. Night Raid, görevini kötüye kullanan, halka zorbalık yapan insanlara suikast düzenlemeye devam ederken, tüm bu her şeyin başında olan başbakan Night Raid'e karşı en iyi askerlerinden oluşan bir grup kurar: Jeagers (Avcılar). Night Raid ile Jaegars'ın kapışması hiç de kolay olmayacaktı"
         fansubs: ["Knaves", "Netrip"]
@@ -24,6 +25,7 @@ seasons:
       episode2:
         episodeName: "Otoriteyi Öldür."
         episodeDate: "14 Temmuz 2014"
+        uploaderID: "000001"
         episodePreview: "https://image.tmdb.org/t/p/w300/l95YwpX4p8ibqgqkMAdS4SvKflw.jpg"
         description: "Tatsumi, Gece Baskını tarafından ele geçirilir. Bir suikastçı olarak potansiyelini fark ederler ve ondan katılmasını isterler, ancak Tatsumi çelişmiştir. Night Raid’in ekip üyelerinin her biri hakkında daha fazla şey öğrendikten sonra, onların kötülüğü ve yozlaşmayı yenme hedeflerini öğrenir ve sonunda katılmaya karar verir."
         fansubs: ["Knaves", "Netrip"]
@@ -35,6 +37,7 @@ seasons:
       episode3:
         episodeName: "Kini öldür."
         episodeDate: "21 Temmuz 2014"
+        uploaderID: "000001"
         episodePreview: "https://image.tmdb.org/t/p/w300/s65sBWCcqB0lVvBoT6wObwvruWD.jpg"
         description: "Night Raid’in sığınağı davetsiz misafirlerin istilasına uğradı! Suikastçı klan, düşmanı sorunsuz bir şekilde kovmayı başardı. Tatsumi, Night Raidin gerçek yoğunluğunu ilk kez yaşar ve çok heyecanlanır."
         fansubs: ["Knaves", "Netrip"]

@@ -6,12 +6,12 @@
 -->
 <template>
 <main>
-    <div class="location">
-     <a href="/">Ana Sayfa</a> > <a href="/animes">Animeler</a>
+<div class="location">
+  <a href="/">Ana Sayfa</a> > <a href="/animes">Animeler</a>
 </div>
 <div class="line"></div><br>
 <div class="card">
-<h2 id="bolumler">Animeler</h2>
+<h2>Animeler</h2>
 </div>
  <div v-for="item of scoresort" v-bind:key="item" class="card">
     <a :href="`/animes/${Object.keys(ids)[Object.values(ids).indexOf(Object.values(ids).find(arr => arr.includes(item[0])))]
