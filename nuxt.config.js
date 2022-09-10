@@ -46,7 +46,7 @@ export default {
           content: 'Ani-Plus - Türkçe Anime İzleme Sitesi.'
         }
     ],
-    modules: ['@nuxtjs/axios'],
+    modules: ['@nuxtjs/axios', 'cookie-universal-nuxt'],
     /*auth: {
       //options
     },
@@ -54,6 +54,5 @@ export default {
       middleware: ['auth']
     },*/
     target: 'static',
-    css: ['~/assets/css/main.css'],
     devServerHandlers: []
 }

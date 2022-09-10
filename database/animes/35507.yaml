@@ -1,5 +1,385 @@
+---
 uploadedSeasonCount: 2
-uploadedEpisodeCount: 19
+uploadedEpisodeCount: 22
+characterCount: 76
+characters:
+  - names:
+      jp: "佐倉 愛里"
+      default: "Sakura Airi"
+      nicknames: ["Shizuku"]
+    gender: "female"
+    age: 17
+    description: "1-D ve 2-D sınıfları sınıf öğrencisi, Ayanokoji Grubu üyesi."
+    debut:
+      lightnovel: "2. Cilt"
+      manga: "2. Cilt 9. Bölüm"
+      anime: "1. Sezon 4. Bölüm"
+    image: "https://static.wikia.nocookie.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/images/2/24/Airi_Sakura_CharMug.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Airi_Sakura"
+  - names:
+      jp: "橘 茜"
+      default: "Tachibana Akane"
+      nicknames: ["none"]
+    gender: "female"
+    age: 19
+    description: "3-A sınıfı sınıf öğrencisi, Öğrenci Konseyi üyesi, Öğrenci Konseyi başkanı Manabu Horikita'nın arkadaşı ve sekreteri."
+    debut:
+      lightnovel: "1. Cilt"
+      manga: "3. Cilt 12. Bölüm"
+      anime: "1. Sezon 12. Bölüm"
+    image: "https://static.wikia.nocookie.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/images/6/6a/Akane_Tachibana_CharMug.png/"
+    fandom: "https://you-zitsu.fandom.com/wiki/Akane_Tachibana"
+  - names:
+      jp: "三宅 明人"
+      default: "Miyake Akito"
+      nicknames: ["Miyatchi"]
+    gender: "male"
+    age: 17
+    description: "1-D ve 2-D sınıfları sınıf öğrencisi, Ayanokoji Grubu ve Okçuluk Kulübü üyesi."
+    debut:
+      lightnovel: "3. Cilt"
+      anime: "1. Sezon 9. Bölüm"
+    image: "https://cdn.discordapp.com/attachments/1017693843744886855/1017770966161563648/Akito_Miyake.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Akito_Miyake"
+  - names:
+      jp: "山田 アルベルト"
+      default: "Yamada Albert"
+      nicknames: ["none"]
+    gender: "male"
+    age: 17
+    description: "1-C ve 2-B sınıfları sınıf öğrencisi, ABD asıllı bir Japon, Ryuen Kakeru'nun 'koruması' ve arkadaşı."
+    debut:
+      anime: "1. Sezon 4. Bölüm"
+    image: "https://cdn.discordapp.com/attachments/1017693843744886855/1017771221057818634/Albert_Yamada.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Albert_Yamada"
+  - names:
+      jp: "坂柳 有栖"
+      default: "Sakayanagi Arisu"
+      nicknames: ["Little Girl"]
+    gender: "female"
+    age: 17
+    description: "1-A ve 2-A sınıfları sınıf öğrencisi, Beyaz Oda kurucusu ve Ayanokoji Kiyotaka'nın Babası olan Profesör Ayanokoji'nin arkadaşı ve Okul müdürü olan Mr. Sakayanagi'nin kızı"
+    debut:
+      lightnovel: "5. Cilt"
+      manga: "6. Cilt 27. Bölüm"
+      anime: "1. Sezon 1. Bölüm"
+    image: "https://static.wikia.nocookie.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/images/d/dc/Arisu_Sakayanagi_CharMug.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Arisu_Sakayanagi"
+  - names:
+      jp: "坂柳"
+      default: "Mr. Sakayanagi"
+      nicknames: ["none"]
+    gender: "male"
+    age: "Yaklaşık 40"
+    description: "Beyaz Oda kurucusu ve Ayanokoji Kiyotaka'nın babası olan Profesör Ayanokoji'nin arkadaşı, Kodo Ikusei Lisesi okul müdürü, Sakayanagi Arisu'nun babası."
+    debut:
+      lightnovel: "7. Cilt"
+      anime: "2. Sezon 10. Bölüm"
+    image: "https://cdn.discordapp.com/attachments/1017693843744886855/1017771667726028800/Chairman_Sakayanagi.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Chairman_Sakayanagi"
+  - names:
+      jp: "松下 千秋"
+      default: "Matsushita Chiaki"
+      nicknames: ["none"]
+    gender: "female"
+    age: 17
+    description: "1-D ve 2-D sınıfları sınıf öğrencisi."
+    debut:
+      lightnovel: "1. Cilt"
+      manga: "4. Cilt 16. Bölüm"
+      anime: "1. Sezon 1. Bölüm"
+    image: "https://cdn.discordapp.com/attachments/1017693843744886855/1017772040759025664/Chiaki_Matsushita.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Chiaki_Matsushita"
+  - names:
+      jp: "星之宮 知恵"
+      default: "Hoshinomiya Chie"
+      nicknames: ["Chie-chan"]
+    gender: "female"
+    age: 29
+    description: "1-B ve 2-C sınıfları sınıf öğretmeni, eski Kodo Ikusei Lisesi öğrencisi."
+    debut:
+      lightnovel: "1. Cilt"
+      manga: "1. Cilt 5. Bölüm"
+      anime: "3. Bölüm"
+    image: "https://static.wikia.nocookie.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/images/4/40/Chie_Hoshinomiya_CharMug.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Chiaki_Matsushita"
+  - names:
+      jp: "白波 千尋"
+      default: "Shiranami Chihiro"
+      nicknames: ["none"]
+    gender: "female"
+    age: 17
+    description: "1-B ve 2-C sınıfları sınıf öğrencisi."
+    debut:
+      lightnovel: "2. Cilt"
+      manga: "3. Cilt 11. Bölüm"
+      anime: "1. Sezon 1. Bölüm"
+    image: "https://static.wikia.nocookie.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/images/5/59/Chihiro_Shiranami_Anime.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Chihiro_Shiranami"
+  - names:
+      jp: "石崎 大地"
+      default: "Ishizaki Daichi"
+      nicknames: ["none"]
+    gender: "male"
+    age: 17
+    description: "1-C ve 2-D sınıfları sınıf öğrencisi, Ryuen Kakeru'nun arkadaşı ve 'yardakçısı'."
+    debut:
+      lightnovel: "2. Cilt"
+      manga: "3. Cilt 12. Bölüm"
+      anime: "1. Sezon 3. Bölüm"
+    image: "https://cdn.discordapp.com/attachments/1017693843744886855/1017772774107914240/Daichi_Ishizaki.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Chihiro_Shiranami"
+  - names:
+      jp: "鬼龍院 楓花"
+      default: "Kiryūin Fūka"
+      nicknames: ["none"]
+    gender: "female"
+    age: 18
+    description: "2-B ve 3-B sınıfları sınıf öğrencisi."
+    debut:
+      lightnovel: "2. Yıl 2. Cilt"
+      anime: "Bu karakter 'Hafif Roman (Light Novel)'ın 2. Yıl 2. cildinde görüldü. Henüz anime adaptasyonunda yer almıyor."
+    image: "https://cdn.discordapp.com/attachments/1017693843744886855/1017773081030303754/Fuka_Kiryuin.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/F%C5%ABka_Kiry%C5%ABin"
+  - names:
+      jp: "長谷部 波瑠加"
+      default: "Hasebe Haruka"
+      nicknames: ["none"]
+    gender: "female"
+    age: 17
+    description: "1-D ve 2-D sınıfları sınıf öğrencisi, Ayanokoji Grubu üyesi."
+    debut:
+      lightnovel: "6. Cilt"
+      manga: "5. Cilt 20. Bölüm"
+      anime: "1. Sezon 1. Bölüm"
+    image: "https://static.wikia.nocookie.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/images/a/a8/Haruka_Hasebe_CharMug.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Haruka_Hasebe"
+  - names:
+      jp: "山内春樹"
+      default: "Yamauchi Haruki"
+      nicknames: ["Argos-2"]
+    gender: "male"
+    age: 17
+    description: "1-D sınıfı sınıf öğrencisi, 'D sınıfının 3 aptalı' olarak adlandırılan grubun bir parçası"
+    debut:
+      lightnovel: "1. Cilt"
+      manga: "1. Cilt 3. Bölüm"
+      anime: "1. Sezon 1. Bölüm"
+    image: "https://static.wikia.nocookie.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/images/1/1f/Haruki_Yamauchi_CharMug.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Haruki_Yamauchi"
+  - names:
+      jp: "鬼頭 隼"
+      default: "Kitō Hayato"
+      nicknames: ["none"]
+    gender: "male"
+    age: 17
+    description: "1-A ve 2-A sınıflarının sınıf öğrencisi."
+    debut:
+      lightnovel: "7. Cilt"
+      anime: "1. Sezon 6. Bölüm"
+    image: "https://cdn.discordapp.com/attachments/1017693843744886855/1017773704433893396/Hayato_Kito.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Hayato_Kit%C5%8D"
+  - names:
+      jp: "外村 秀雄"
+      default: "Sotomura Hideo"
+      nicknames: ["Profesör"]
+    gender: "male"
+    age: 17
+    description: "1-D ve 2-D sınıflarının sınıf öğrencisi."
+    debut:
+      lightnovel: "1. Cilt"
+      manga: "4. Cilt 17. Bölüm"
+      anime: "1. Sezon 1. Bölüm"
+    image: "https://cdn.discordapp.com/attachments/1017693843744886855/1017774302512291850/Hideo_Sotomura.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Hideo_Sotomura"
+  - names:
+      jp: "時任 裕也"
+      default: "Tokitō Hiroya"
+      nicknames: ["none"]
+    gender: "male"
+    age: 17
+    description: "1-C ve 2-B sınıfları sınıf öğrencisi."
+    debut:
+      lightnovel: "4. Cilt"
+      anime: "Bu karakter yalnızca 'Hafif Roman (Light Novel)'ın 4. cildinde görüldü. "
+    image: "https://cdn.discordapp.com/attachments/1017693843744886855/1017774302709416066/Hiroya_Tokito.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Hiroya_Tokit%C5%8D"
+  - names:
+      jp: "椎名 ひより"
+      default: "Shiina Hiyori"
+      nicknames: ["none"]
+    gender: "female"
+    age: 17
+    description: "1-C ve 2-B sınıfları sınıf öğrencisi, Ayanokoji Kiyotaka ile kütüphanede veya kütüphane dışında kitaplar hakkında konuşarak arkadaş oldular."
+    debut:
+      lighnovel: "6. Cilt"
+      anime: "2. Sezon 7. Bölüm"
+    image: "https://cdn.discordapp.com/attachments/1017693843744886855/1017774302927536208/Hiyori_Shiina.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Hiyori_Shiina"
+  - names:
+      jp: "一之瀬 帆波"
+      default: "Ichinose Honami"
+      nicknames: ["Sınıf Temsilcisi Ichinose"]
+    gender: "female"
+    age: 17
+    description: "1-B ve 2-C sınıfları sınıf öğrencisi ve sınıf lideri. 1-D/C ve 2-A sınıfları ile yapılan ittifakların 1 numaralı karakteri."
+    debut:
+      lightnovel: "1. Cilt"
+      manga: "1. Cilt 5. Bölüm"
+      anime: "1. Sezon 1. Bölüm"
+    image: "https://static.wikia.nocookie.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/images/7/7b/Honami_Ichinose_CharMug.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Honami_Ichinose"
+  - names:
+      jp: "天沢 一夏"
+      default: "Amasawa Ichika"
+      nicknames: ["none"]
+    gender: "female"
+    age: 16
+    description: "Kodo Ikusei Lisesi 1-A sınıfı ve Beyaz Oda 5. Kuşak öğrencisi."
+    debut:
+      lightnovel: "2. Yıl 2. Cilt"
+      anime: "Bu karakter ilk olarak 'Hafif Roman (Light Novel)'ın 2. Yıl 1. cildinde görüldü. Henüz anime adaptasyonunda yer almıyor."
+    image: "https://cdn.discordapp.com/attachments/1017693843744886855/1017775306356043857/Ichika_Amasawa.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Ichika_Amasawa"
+  - names:
+      jp: "桐山 生叶"
+      default: "Kiriyama Ikuto"
+      nicknames: ["none"]
+    gender: "male"
+    age: 18
+    description: "2-B ve 3-B sınıfları sınıf öğrencisi, serinin 2. öğrenci konseyi olan Nagumo Miyabi'nin yardımcısı olarak Öğrenci Konseyi Başkan Yardımcısı sıfatına sahip. Nagumo Miyabi'ye düşman bir tavrı var. Manabu Horikita'nın büyük bir destekçisiydi."
+    debut:
+      lightnovel: "7,5. Cilt"
+      anime: "Bu karakter ilk olarak 'Hafif Roman (Light Novel)'ın 7,5. cildinde görüldü. Henüz anime adaptasyonunda yer almıyor."
+    image: "https://cdn.discordapp.com/attachments/1017693843744886855/1017775306595127346/Ikuto_Kiriyama.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Ikuto_Kiriyama"
+  - names:
+      jp: "龍園 翔"
+      default: "Ryūen Kakeru"
+      nicknames: ["Ejder Çocuk", "Bay Yaramaz"]
+    gender: "male"
+    age: 17
+    description: "1-C ve 2-B sınıflarının sınıf öğrencisi ve bir bölüm dışında lideri, agresif tavırları ve okul kurallarını umursamaz stratejileri ile tüm okul tarafından dikkati üzerine çekti. Kōenji Rokusuke ile olan 'sürtüşmelerinin' ardından 'Ejder Çocuk' ve 'Bay Yaramaz' lakaplarını aldı. Kiyotaka Ayanokoji ile olan kavgasından ve bu kavganın ardından sınıf liderliğinden çekilmesinden sonra herkes tarafından dışlandı."
+    debut:
+      lightnovel: "3. Cilt"
+      manga: "4. Cilt 15. Bölüm"
+      anime: "1. Sezon 3. Bölüm"
+    image: "https://static.wikia.nocookie.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/images/0/0a/Kakeru_Ry%C5%ABen_CharMug.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Kakeru_Ry%C5%ABen"
+  - names:
+      jp: "池 寛治"
+      default: "Ike Kanji"
+      nicknames: ["Argos-1"]
+    gender: "male"
+    age: 17
+    description: "1-D ve 2-D sınıfları sınıf öğrencisi, 'D sınıfının 3 aptalı' olarak adlandırılan grubun bir parçası."
+    debut:
+      lightnovel: "1. Cilt"
+      manga: "1. Cilt 3. Bölüm"
+      anime: "1. Sezon 1. Bölüm"
+    image: "https://static.wikia.nocookie.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/images/6/67/Kanji_Ike_CharMug.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Kanji_Ike"
+  - names:
+      jp: "司馬 克典"
+      default: "Shiba Katsunori"
+      nicknames: ["none"]
+    gender: "male"
+    age: "Bilinmiyor."
+    description: "2. yıl 1-D sınıfı sınıf öğretmeni ve eski bir Kodo Ikusei Lisesi öğrencisi."
+    debut:
+      lightnovel: "2. Yıl 1. Cilt"
+      anime: "Bu karakter ilk olarak 'Hafif Roman (Light Novel)'ın 2. Yıl 1. cildinde görüldü. Henüz anime adaptasyonunda yer almıyor."
+    image: "https://cdn.discordapp.com/attachments/1017693843744886855/1017775306829987880/Katsunori_Shiba.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Katsunori_Shiba"
+  - names:
+      jp: "小野寺 かや乃"
+      default: "Onodera Kayano"
+      nicknames: ["none"]
+    gender: "female"
+    age: 17
+    description: "1-D ve 2-D sınıfı sınıf öğrencisi, yüzme alanında iyi olduğu söyleniyor. Basketbolda da fena değilmiş!"
+    debut:
+      lightnovel: "1. Cilt"
+      anime: "1. Sezon 1. Bölüm"
+    image: "https://cdn.discordapp.com/attachments/1017693843744886855/1017775307081662474/Kayano_Onodera.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Kayano_Onodera"
+  - names:
+      jp: "坂上 数馬"
+      default: "Sakagami Kazuma"
+      nicknames: ["none"]
+    gender: "male"
+    age: "Bilinmiyor."
+    description: "1-C ve 2-B sınıfları sınıf öğretmeni."
+    debut:
+      lightnovel: "2. Cilt"
+      manga: "3. Cilt 12. Bölüm"
+      anime: "1. Sezon 5. Bölüm"
+    image: "https://cdn.discordapp.com/attachments/1017693843744886855/1017757975059894282/Kazuma_Sakagami.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Kazuma_Sakagami"
+  - names:
+      jp: "宝泉 和臣"
+      default: "Hōsen Kazuomi"
+      nicknames: ["none"]
+    gender: "male"
+    age: 16
+    description: "1-D sınıfı öğrencisi ve lideri. Kiyotaka Ayanokoji'yi sol elinden bıçakla yaralayan kişi."
+    debut:
+      lightnovel: "2. Yıl 1. Cilt"
+      anime: "Bu karakter ilk olarak 'Hafif Roman (Light Novel)'ın 2. Yıl 1. cildinde görüldü. Henüz anime adaptasyonunda yer almıyor."
+    image: "https://cdn.discordapp.com/attachments/1017693843744886855/1017775307303948309/Kazuomi_Hosen.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Kazuomi_H%C5%8Dsen"
+  - names:
+      jp: "軽井沢 恵"
+      default: "Karuizawa Kei"
+      nicknames: ["none"]
+    gender: "female"
+    age: 17
+    description: "1-D ve 2-D sınıfları sınıf öğrencisi ve kız gruplarının lideri. Ayanaokoji Kiyotaka'nın kız arkadaşı. Yosuke Hirata'nın eski 'sahte' kız arkadaşı."
+    debut:
+      lightnovel: "1. Cilt"
+      manga: "1. Cilt 4. Bölüm"
+      anime: "1. Sezon 1. Bölüm"
+    image: "https://static.wikia.nocookie.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/images/e/e1/Kei_Karuizawa_CharMug.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Kei_Karuizawa"
+  - names:
+      jp: "須藤 健"
+      default: "Sudō Ken"
+      nicknames: ["Argos-3", "Kızıl Saç"]
+    gender: "male"
+    age: 17
+    description: "1-D ve 2-D sınıfları sınıf öğrencisi. 'D sınıfının 3 aptalı' olarak adlandırılan grubun bir parçası. Basketbol kulübü üyesi. 2. sınıflar arasında fiziksel seviyesi A+ (96) olan tek öğrenci. Suzune Horikita'ya platonik aşık."
+    debut:
+      lightnovel: "1. Cilt"
+      manga: "1. Cilt 1. Bölüm"
+      anime: "1. Sezon 1. Bölüm"
+    image: "https://static.wikia.nocookie.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/images/1/14/Ken_Sud%C5%8D_CharMug.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Ken_Sud%C5%8D"
+  - names:
+      jp: "櫛田 桔梗"
+      default: "Kushida Kikyō"
+      nicknames: ["none"]
+    gender: "female"
+    age: 17
+    description: "1-D ve 2-D sınıfları sınıf öğrencisi, tüm sınıf hatta tüm okul ile iyi geçinen biri. İçidne barındırdığı şeytanı gizlemek için Horikita Suzune, Takuya Yagami ve Kiyotaka Ayanakoji'yi okuldan attırmak en büyük gayesi."
+    debut:
+      lightnovel: "1. Cilt"
+      manga: "1. Cilt 0,5. Bölüm"
+      anime: "1. Sezon 1. Bölüm"
+    image: "https://static.wikia.nocookie.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/images/7/77/Kiky%C5%8D_Kushida_CharMug.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Kiky%C5%8D_Kushida"
+  - names:
+      jp: "綾小路 清隆"
+      default: "Ayanokōji Kiyotaka"
+      nicknames: ["Argos-4", "Kiyopon", "Ayanon", "X", "Deha", "Canavar", "Şeytani 4. Neslin Şeytanı", "Kral", "Başyapıt", "Kusursuz İnsan"]
+    gender: "male"
+    age: 17
+    description: "Elitler Sınıfı serisinin baş karakteri ve anlatıcısıdır. 1-D ve 2-D sınıflarının bir öğrencisi olmakla beraber Beyaz Oda 4. Neslin de bir öğrencisidir. Beyaz Oda öğrencileri arasında 'başyapıt' olarak adlandırılıp daha iyisi olmadığı belirtilmektedir. Beyaz Oda kurucusu Profesör Ayanakoji'nin oğlu ve Kei Karuizawa'nın erkek arkadaşıdır. Ayrıca Ayanokoji grubunun da bir üyesidir."
+    debut:
+      lightnovel: "1. Cilt"
+      manga: "1. Cilt 0,5. Bölüm"
+      anime: "1. Sezon 1. Bölüm"
+    image: "https://static.wikia.nocookie.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/images/a/ae/Kiyotaka_Ayanok%C5%8Dji_CharMug.png"
+    fandom: "https://you-zitsu.fandom.com/wiki/Kiyotaka_Ayanok%C5%8Dji"
 seasons:
   season1:
     seasonName: "1. Sezon"
@@ -9,14 +389,20 @@ seasons:
     endDate: "27 Eylül 2017"
     isCompleted: true
     description: "Kōdo Ikusei Lisesi, ayrıcalıklarla dolu bir okuldur. Bu okulda giyim, kuşam, saç tarzı, takılar vb... gibi konuların bir önemi yoktur. Her şey sizin yaratıcılığınıza bırakılmıştır. Ülkedeki en gelişmiş tesislere sahip olan Ikusei Lisesi'nin öğrencileri, üniversiteye girme ya da iş bulma konusunda neredeyse hiçbir zaman sıkıntı çekmemektedir. Kısacası bu lise tam da hayallerinizdeki gibidir. Tek bir farkla. Bu ayrıcalıklardan yalnızca en üstün öğrenciler faydalanmaktadır.rnKahramanımız Kiyotaka Ayanokōji da bu liseye kayıt olmak için başvuranlar arasındadır. Fakat dikkatsizliği yüzünden başarısız olarak 'çöplerin sınıfı' olarak adlandırılan D sınıfına atılır. Ne var ki burada tanıştığı Suzune Horikit, Kikyō Kushida ve diğer iki öğrenciyle beraber Kiyotaka’nın durumu da yavaşça değişmeye başlayacaktır."
-    seasonCover: "https://image.tmdb.org/t/p/w300/8BtSk9DGIlS24otIB3qCagVCI6W.jpg"
+    seasonCover: "https://images.justwatch.com/poster/250029276/s718/sezon-1.%7Bformat%7D"
+    trailer: "https://www.youtube.com/watch?v=MtSYQRjjMCcs"
+    openingtheme:
+      name: "Caste Room"
+      artist: "ZAQ"
+      url: "https://www.youtube.com/watch?v=hsfBOwAIhOw"
+      duration: "1:40"
     episodes:
       episode1:
         episodeName: "Kötü olan Nedir? --- Zayıflıktan Kaynaklanan Her Şey."
         episodeDate: "12 Temmuz 2017"
         uploaderID: "000001"
-        episodePreview: "https://image.tmdb.org/t/p/w300/9x4zR7c8575mXUMNFo0jJE75Eun.jpg"
-        description: "Sessiz, Sakin, Normal bir lise hayatı yaşamak isteyen Ayanokoji Kiyotaka'nın ilginç lise hayatı, ayrıcalıklarla dolu Kodo Ikusei Lisesi'nde başlıyor!"
+        episodePreview: "https://manga.tokyo/wp-content/uploads/2017/07/01_5.jpg"
+        description: "Kiyotaka Ayanokōji, hükümet tarafından en iyi öğrencileri eğitmek için kurulmuş bir kurum olan Tokyo Metropolitan Advanced Nurturing High School'da Sınıf 1-D'deki okula katılır. D sınıfını'nın sınıf öğretmeni Sae Chabashira, puan sistemini, herkesin yerel dükkanlarda bir puan bir yen ile aylık 100.000 puanlık bir ödenek aldığı para olarak açıklıyor. Öğrencileri liyakate göre yargılandıkları konusunda uyarır. Kiyotaka, girişken Kikyo Kushida ile tanışıp bencil sınıf arkadaşı Suzune Horikita ile barışmaya çalışırken, puanları nasıl harcadığına dikkat ederek sistemde gezinir."
         fansubs: ["PuzzleFansub", "PuzzleFansub"]
         urls:
           PuzzleFansub: "https://video.sibnet.ru/shell.php?videoid=4323387"
@@ -25,8 +411,8 @@ seasons:
         episodeName: "Birisinin yeteneğini gizlemek, büyük yetenek ister."
         episodeDate: "20 Temmuz 2017"
         uploaderID: "000001"
-        episodePreview: "https://image.tmdb.org/t/p/w300/xFwvFgtr9k9Y8C13CGuJ0BvNaCL.jpg"
-        description: "Herhangi bir açıklama bulunamadı."
+        episodePreview: "https://img1.ak.crunchyroll.com/i/spire1-tmb/baed8721c7eb199a3510f5480a85daf61500455126_main.jpg"
+        description: "Chabashira, sistemin okulda nasıl çalıştığını açıklıyor. Dört birinci sınıf sınıfının tümü liyakate göre sıralanır ve D Sınıfı, sınavlarda güçlü performanslarla Sınıf-C'ye terfi etme fırsatına sahiptir. Mevcut durumla, sınavı geçemeyen herkesin okuldan atılacağı konusunda uyarıyor. Sistemin farkında olan Ken Sudo, Kenji Ike ve Haruki Yamauchi dışında herkes sık sık derslerini alır. Kiyotaka ve Suzune bu konuları tartışır ve ondan çocukları kütüphanedeki çalışma grubuna getirmesini ister. Kiyotaka ve Kushida, Suzune'nin bencilliği nedeniyle onları davet edemez."
         fansubs: ["PuzzleFansub", "PuzzleFansub"]
         urls:
           PuzzleFansub: "https://video.sibnet.ru/shell.php?videoid=4230631"
@@ -35,8 +421,8 @@ seasons:
         episodeName: "İnsanlar, pazarlık yapan hayvanlardır. Başka hiçbir hayvan bunu yapmaz -- hiçbir köpek, kemiğini başka bir şeyle değişmez."
         episodeDate: "27 Temmuz 2017"
         uploaderID: "000001"
-        episodePreview: "https://image.tmdb.org/t/p/w300/2kaeokG53dUQDqOdEXDP2JkUuAj.jpg"
-        description: "Herhangi bir açıklama bulunamadı."
+        episodePreview: "https://img1.ak.crunchyroll.com/i/spire3-tmb/3567e8e02102088cce9729592c4913f31501036435_main.jpg"
+        description: "D sınıfı son sınavlarının sonuçlarını alır ve geçme eşiğini bir puanla kaçıran Sudo dışında herkes geçer. Notlar, Kiyotaka'nın üç gün önce bir üst sınıf öğrencisinden sınav soruları satın almak için 15.000 puan harcamasının sonucuydu. Bunların hiçbirinin okul kurallarına aykırı olmadığını açıklanıyor.Kiyotaka ve Suzune puanlarını test puanını bir puan artırmak için harcarlar, böylece Sudo sınıfta kalabilir. Kushida yanlışlıkla cep telefonunu bırakır ama Kiyotaka telefonu ona geri verir. Sonunda onun kişiliğinin kıskanç, kötü ve huysuz tarafını öğrenir. Kushida, Kiyotaka'dan bunu bir sır olarak saklamasını ister, yoksa Kiyotaka onu kendisine tecavüz etmekle suçlayacaktır."
         fansubs: ["PuzzleFansub", "PuzzleFansub"]
         urls:
           PuzzleFansub: "https://video.sibnet.ru/shell.php?videoid=4230635"
@@ -45,8 +431,8 @@ seasons:
         episodeName: "Biz bile gerçekleri kendimizden saklarken başkalarının bizden saklamasına üzülmemeliyiz."
         episodeDate: "3 Ağustos 2017"
         uploaderID: "000001"
-        episodePreview: "https://image.tmdb.org/t/p/w300/7oaikTMJo2VTDhktCvBUCnftjce.jpg"
-        description: "Herhangi bir açıklama bulunamadı."
+        episodePreview: "https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/V1691657/artwork/4278afc4-52e5-4e7e-aa04-99be90b25f62_keyartofficialvideoimage.jpg"
+        description: "1 Temmuz'da, önceki gün Sudo ve Sınıf-C'den üç basketbol takım arkadaşının karıştığı bir olay nedeniyle D Sınıfı'nın puan dağılımı askıya alındı. Sudo saldırıya uğradı ve kendini savunmak için savaştı. Ancak, kötü itibar nedeniyle, sınıf gelecek haftaki duruşmadan önce adını temize çıkaracak bir tanık bulamazsa sorumlu olacaktır, bu da sınıfın ay için puansız kalmasına neden olacaktır. Davayı kendi lehlerine yönlendirmek amacıyla, üç C Sınıfı saldırgan gizlice sınıf arkadaşları Kakeru Ryuen'den kendilerine saldırmasını ister. B Sınıfı'nın yardımıyla, D Sınıfı öğrencileri olayın tanıklarını soran mesajlar gönderirler. Suzune, Kiyotaka ve diğerlerine Airi Sakura'nın orada olduğunu ve olaya kamera ile tanık olduğunu söyler."
         fansubs: ["TempestFansub", "PuzzleFansub"]
         urls:
           TempestFansub: "https://odnoklassniki.ru/videoembed/1774382287463"
@@ -57,8 +443,8 @@ seasons:
         episodeName: "Cehennem başkalarıdır."
         episodeDate: "9 Ağustos 2017"
         uploaderID: "000001"
-        episodePreview: "https://image.tmdb.org/t/p/w300/hLIwcF7aWjFrVrpqMkdXfJYmDbu.jpg"
-        description: "Herhangi bir açıklama bulunamadı."
+        episodePreview: "https://img1.ak.crunchyroll.com/i/spire2-tmb/72c8a01b2a35d2009ec82e27ebc8971d1502233395_full.jpg"
+        description: "Sakura, Kiyotaka ve Kushida, elektronik mağazasında garanti kapsamındaki kamerayı inceler. Mağaza memuru Sakura'ya iletişim bilgilerini sorar, ancak Kiyotaka onun bilgilerini kullanır. Kiyotaka, Sakura'nın son zamanlarda büyük bir hit haline gelen internet modeli olduğunu anlar. Manabu'nun başkanlık ettiği duruşmada, her iki sınıf da, C Sınıfı'nın lehine giden ilk kararla kavgayı kışkırtmakla birbirlerini suçlayarak ifadelerini veriyor. Sessiz kaldıktan sonra Suzune, Kiyotaka'nın ona hatırlatmasıyla konuşmaya başlar. Suzune, dövüş için koşulların ne olduğunu soruyor ve üçe bir dövüşte, ciddi yaralanmaların Sudo'nun yaptığının neredeyse imkansız olduğuna dikkat çekiyor."
         fansubs: ["TempestFansub", "AkiraSubs", "PuzzleFansub"]
         urls:
           TempestFansub: "https://odnoklassniki.ru/videoembed/1774382156391"
@@ -71,8 +457,8 @@ seasons:
         episodeName: "2 tür yalan vardır: geçmişi ilgilendiren ve geleceği ilgilendiren"
         episodeDate: "16 Ağustos 2017"
         uploaderID: "000001"
-        episodePreview: "https://image.tmdb.org/t/p/w300/ohymTA9sj1Lt0fKrghmEaVtK1e4.jpg"
-        description: "Herhangi bir açıklama bulunamadı."
+        episodePreview: "https://img1.ak.crunchyroll.com/i/spire1-tmb/50787a27e4ad4bc1abb02ca06010fcc51502856899_full.jpg"
+        description: "Sakura yurda döner ve fotoğrafları bir posta kutusunda bulur. Kiyotaka ve Suzune, fotoğrafla sağlanan son kararın gecikmesinden yararlanarak merdiven boşluğuna tuzak kurar. Kushida, üç C sınıfı öğrenciye sahte bir mesaj göndererek, onları Kiyotaka ve Suzune'nin beklediği merdiven boşluğuna çekmek için özel ek binada buluşmalarını emretti ve Honami Ichinose güvenlik kameraları kurdu. Bu, C Sınıfı öğrencileri, bu şikayetle ilerleyerek hiçbir tarafın kazanamayacağına ve üçlünün okulu dahil eden kötü niyetli bir yalan söyledikleri için okuldan atılacağına inanmaları için kandırmalarına yardımcı olur. Sonuç olarak, C Sınıfı öğrenciler şikayeti geri çekmeyi kabul ederler. Daha sonra, elektronik mağaza katibi ve net alter ego Shizuku'nun büyük bir hayranı Sakura'ya saldırır, ancak Kiyotaka ve Ichinose, katibi tutuklamak için telefonlarındaki ve güvenlik kameralarındaki izleme özelliğini kullanarak onu kurtarmaya gelir."
         fansubs: ["TempestFansub", "AkiraSubs"]
         urls:
           TempestFansub: "https://odnoklassniki.ru/videoembed/1774382418535"
@@ -83,8 +469,8 @@ seasons:
         episodeName: "Akıllı bir düşman, cahil tehlikeli bir dosttan daha değerlidir."
         episodeDate: "23 Ağustos 2017"
         uploaderID: "000001"
-        episodePreview: "https://image.tmdb.org/t/p/w300/lDtIIAiih1d81MhoNRdmRwZCBa4.jpg"
-        description: "Herhangi bir açıklama bulunamadı."
+        episodePreview: "https://img1.ak.crunchyroll.com/i/spire3-tmb/7667c5006cce53d12ba118edbe8bb8901503443247_main.jpg"
+        description: "Yaz tatili için yurt odasında ders çalışırken Suzune, Kiyotaka tarafından havuza davet edilir. Dün gece, Kiyotaka, Sudo, Ike, Yamauchi ve operasyon lideri Hideo Sotomura'dan oluşan bir grup D Sınıfı öğrenci, soyunma odasındaki kızları gözetleme hazırlıklarını tartışmak için bir araya geldi. Yolculuk sırasında Sotomura, alıcı-vericiler ve el sinyalleri ile iletişim kurarken, genel depodaki çocukları gözlemler. Herkesin davet edilmesiyle Yamauchi, temizlik için kapatma bahanesiyle kameraları gizlice kurmak için kapıcı olarak kadınların soyunma odasına gizlice girer. Ancak bunu yapmakta zorlanıyor ve Ike oraya giriyor. Ike hala içerideyken Ryuen ve C Sınıfı öğrencileri soyunma odasına yaklaşır. Kaçmak için yardıma ihtiyacı olan Sudo, A Sınıfı öğrencileri kavga başlatmak için gelirken zaman kazanmak için Ryuen'in odaya girmesini engeller. Manabu herkese okul sınırları içinde oldukları sürece hala yargılandıklarını hatırlatıyor. Sotomura, Kiyotaka'yı durum hakkında bilgilendirir ve Suzune, bir gün D Sınıfı'nın A Sınıfı'na yükselmesi hakkında bir konuşma yapmak için bir dalış platformunun tepesinde durur. Diğerlerinin dikkati dağıldığında, Ike fark edilmeden soyunma odasını terk eder ve Suzune operasyonu engellemek için tüm SD kartlarını kameralardan çıkarır. Kiyotaka, Suzune'ye, bunu arkasından yapmış olma ihtimalleri nedeniyle diğer sınıf arkadaşları yerine onu kullandığını söyler."
         fansubs: ["TempestFansub", "AkiraSubs"]
         urls:
           TempestFansub: "https://odnoklassniki.ru/videoembed/1774382221927"
@@ -95,8 +481,8 @@ seasons:
         episodeName: "Buraya girecekler umutlarını geride bıraksınlar."
         episodeDate: "30 Ağustos 2017"
         uploaderID: "000001"
-        episodePreview: "https://image.tmdb.org/t/p/w300/tcqWleFpviDiHhLp48zPkFXgxYD.jpg"
-        description: "Herhangi bir açıklama bulunamadı."
+        episodePreview: "https://img1.ak.crunchyroll.com/i/spire1-tmb/49651088d9dc22d9344527273d61b97d1504092728_full.jpg"
+        description: "Sınıf gezisi için tüm birinci sınıf öğrencileri lüks bir yolcu gemisine alınır. Kiyotaka, Chabashira'dan kimliği belirsiz bir adamın okulla iletişime geçerek okuldan atılmasını istediğini öğrenir. Chabashira, A Sınıfı'na ulaşması için onu korumayı teklif eder. Chabashira, onu manipüle ediyor olabileceğinden şüphelenerek reddeder, ancak yaparsa, sınır dışı edileceği ve özgürlüğünden mahrum bırakılacağı konusunda onu uyarır. Daha sonra Kiyotaka, Suzune ile yolculuğun hedefi hakkında tartışır. Okulun onları gizli bir amaçla okulun sahip olduğu bir adadaki yatılı eve götürdüğünden şüphelendiğini söyler. Ryuen, güvenlik kamerası kurulumu konusunda Suzune'yi manipüle etmeye çalışır. C sınıfından başka bir öğrenci olan Mio Ibuki, Ryuen'le bir konuda yüzleşmeye çalışır, ancak Albert tarafından reddedilirler. Suzune, Class-C'nin içeriden çöküşün eşiğinde olabileceğini belirtiyor. Sakayanagi arka planda plan yapar ve diğer öğrencilerle birlikte araştırma yapar. Daha sonra Sakura, Kiyotaka'dan randevuya çıkmasını ister, ancak onunla buluşmaya gittiğinde aniden fikrini değiştirir. Kushida onları gördüğünde, Sakura utanır ve gider. Kiyotaka ayrılmaya çalışır, ancak öfke kişiliğine geri döndüğünde Kushida tarafından durdurulur. Ona, onun onayladığı ihtiyatlılığını hissedebildiğini söyler. Kushida neşeli kişiliğine geri döner ve yalnız kaldığında kendini yalnız hissettiğini itiraf eder. Ertesi gün okul, tüm öğrencilere gezinin gerçek sebebini bildirir. Bir hafta boyunca ıssız bir adada hayatta kalma testine girmeleri gerekiyor."
         fansubs: ["TempestFansub", "AkiraSubs"]
         urls:
           TempestFansub: "https://odnoklassniki.ru/videoembed/1774382090855"
@@ -107,8 +493,8 @@ seasons:
         episodeName: "İnsan özgürlüğe mahkumdur."
         episodeDate: "7 Eylül 2017"
         uploaderID: "000001"
-        episodePreview: "https://image.tmdb.org/t/p/w300/giRYMa11C7tSxNwCQK3yznnLo8A.jpg"
-        description: "Herhangi bir açıklama bulunamadı."
+        episodePreview: "https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/V1691651/artwork/6c6c69ed-ac3d-4fdf-a88b-decfcf71b81a_keyartofficialvideoimage.jpg"
+        description: "Yosuke Hirata, hayatta kalma testinin nasıl çalıştığını kılavuzdan açıklıyor. Sınıf, yiyecek ve diğer kolaylıklar için harcamak üzere 300 test puanı alır ve haftanın sonunda kalan her şey sınıf puanlarıyla değiştirilebilir. Sınıf, yaralanmalar, çevreyi kirletme, yoklamaları kaçırma ve herhangi bir sınıfa karşı şiddet nedeniyle test puanlarını kaybeder. D Sınıfı bunu aşmaya karar verirken, kızlar portatif bir tuvalete ihtiyaç duyarlar, tartışma bir yana, D Sınıfı puan biriktirmeye karar verir. Ayrılırlar ve kamp yeri ararlar ve Kiyotaka, Sakura ve Rokusuke Koenji ile eşleşir. Kiyotaka, Koenji'den ayrılırken, o ve Sakura güvence altına alacak bir yer ararken, Chabashira'nın bir yere sahip olma hakkında söylediklerini hatırlayarak, yalnızca belirlenmiş sınıf liderinin bunu yapabileceğini ve sekiz saat süren her bir ele geçirmenin takıma bir özel test noktası aldığını hatırlatır. sadece sınıf puanları için kullanılabilir. Ayrıca, elli test puanını riske atarak, sınıf başka bir sınıfın liderinin kim olduğunu tahmin eder. Kiyotaka yer ararken sınıf arkadaşı Yahiko Totsuka ile konuşurken Kohei Katsuragi'nin lider kartını tuttuğunu görür. D Sınıfı nehir kenarında bir noktada yeniden toplanır ve kamp kurar. Suzune, sorumluluk sahibi olması ve öne çıkmaması için lider olarak seçilmiştir. Yakacak odun toplarken, Kiyotaka, Yamauchi ve Sakura, yaralı bir Mio bulur ve Kushida, sınıf arkadaşlarının bulduğu meyvelerin bir kısmını ona vermeye karar verir. Sınıf, günde iki öğün yemek, bir tuvalet, bir çadır ve öngörülemeyen durumlar için otuz puan almak için 180 puan limiti belirlediklerinden puanlarını harcamak için bir strateji planlıyor. Bununla birlikte, Koenji, iddia ettiği gibi hasta hissetmemesine rağmen, Sınıf-D'den otuz puana mal olduğu için geri çekildiğinde sınıf bir aksilik yaşar."
         fansubs: ["TempestFansub", "AkiraSubs"]
         urls:
           TempestFansub: "https://odnoklassniki.ru/videoembed/1774381894247"
@@ -119,8 +505,8 @@ seasons:
         episodeName: "Her insani varlık en büyük haini kendi benliğinde taşır"
         episodeDate: "14 Eylül 2017"
         uploaderID: "000001"
-        episodePreview: "https://image.tmdb.org/t/p/w300/pcbRim2OfErsqUD4vrpyeTYrH9m.jpg"
-        description: "Herhangi bir açıklama bulunamadı."
+        episodePreview: "https://img1.ak.crunchyroll.com/i/spire4-tmb/43dfdd4172641a4f26c4892d93a29e671505296430_main.jpg"
+        description: "Kiyotaka ve Suzune, diğer kamplardaki durumu araştırmaya gider. B Sınıfı'nın kampı bir şelalenin yakınında kuruludur ve D Sınıfı'nın kampına çok benzer, ancak daha iyi bir konumda çalışır. A Sınıfı'nın kampı, sıkı bir şekilde korunan bir mağarada. Suzune zirveye ulaşmaya çalışır, ancak Katsuragi güvenlik gücünü çağırdığında ve eylemlerinin bir savaş başlatabileceği konusunda onu uyardığında geri döner. C Sınıfı'nın kampı, Ryuen'in liderliğinde tüm puanların harcandığı ve sınıfın bu testi bir tatil gibi değerlendirdiği bir kumsaldadır. Ryuen bunu, tüm test puanlarını önceden harcamışlarsa cezalandırılmayacaklarını bilerek yaptı. Ryuen, Mio'yu kendisine karşı geldiği için azarlar. O gece biri gizlice kızın çadırına girip D sınıfı kamptan telefonu çaldı. Dördüncü gün, D Sınıfı, sınıf liderlerinin kim olduğunu bulmak için daha fazla keşif yapar. Kiyotaka ve Sakura, Class-C'nin kampında Ichinose ile tanışır ve Mio dışındaki herkesin testten çekildiğini öğrenir. Beşinci gün, Kei Karuizawa iç çamaşırının çalındığını öğrenir. D Sınıfı çanta araması yapar, ancak Yamauchi çantayı Ike'ın çantasında bulur. Kiyotaka alır, ama kızlar izin ister. Pat-down araması yapıldığında, Hirata Kiyotaka'yı bulur, ancak onu bulamadığını bildirir. Daha sonra onunla konuşur ve suçlu olduğu için itibarının en az zarar göreceğini bilerek iç çamaşırını almaya karar verir, çünkü Karuizawa onun kız arkadaşıdır."
         fansubs: ["TempestFansub", "AkiraSubs"]
         urls:
           TempestFansub: "https://odnoklassniki.ru/videoembed/1774381959783"
@@ -131,8 +517,8 @@ seasons:
         episodeName: "İnsanların kader dedikleri şey genellikle kendi aptallıklarıdır."
         episodeDate: "20 Eylül 2017"
         uploaderID: "000001"
-        episodePreview: "https://image.tmdb.org/t/p/w300/qrRwKfCbdysBKxf9ApEHtjAys5U.jpg"
-        description: "Herhangi bir açıklama bulunamadı."
+        episodePreview: "https://img1.ak.crunchyroll.com/i/spire3-tmb/fc67a1e81cf3dd2cc9880910462d65b11505897910_fwide.jpg"
+        description: "Eşya hırsızlığı olayına yanıt olarak, D Sınıfı içindeki güven aşınır ve D Sınıfı kızlar, erkek ve kız kamplarını ayırmaya karar verir. Mio, Kiyotaka'ya hırsızın fikrini sorar ve Sudo'nun ondan şüphelendiğini söylerken Kiyotaka'ya güvenir. O gece, Kiyotaka ve Suzune bir kamp ateşinin yanında otururlar ve tüm test boyunca onun hasta olduğunu fark eder. Suzune, gemi yolculuğunda hastalığından kurtulmak için odasında istirahat etmekteydi ve buna göğüs germeye kararlıdır. Ertesi gün, D Sınıfı bir yağmur fırtınası öncesinde yiyecek toplar. Kiyotaka nehirde balık tutarken Suzune'den lider kartını kontrol etmesini ister ve bunun gerçek olup olmadığını ve Katsuragi'nin elinde olduğunu teyit eder. Ancak, gördükten sonra hala emin değil. Yamauchi, Suzune'ye yaklaşır ve saçına çamur sürerek onu yere atmasını ister. Suzune saçındaki çamuru temizlerken birisi gizlice lider kartını çalmış ve Kiyotaka'nın bunu öğrenmesine izin vermiştir. Kısa bir süre sonra, birisi hayatta kalma testi kılavuzunu ateşe verdi ve D Sınıfı için daha da fazla güven sorununa yol açtı. Başka bir sınıftayken Mio'nun yaptığından şüphelenen Suzune, kavgaya tanık olmadan anahtar kartını Mio'dan alamaz. Mio, kartı gizemli bir öğrenciye getirir."
         fansubs: ["TempestFansub", "AkiraSubs"]
         urls:
           TempestFansub: "https://odnoklassniki.ru/videoembed/1774381763175"
@@ -143,8 +529,8 @@ seasons:
         episodeName: "Dahilik deliliğin bir üst basamağıdır."
         episodeDate: "27 Eylül 2017"
         uploaderID: "000001"
-        episodePreview: "https://image.tmdb.org/t/p/w300/aOdRq37dWJQcQge1qelkFfdgK6Q.jpg"
-        description: "Herhangi bir açıklama bulunamadı."
+        episodePreview: "https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/V1691643/artwork/14684122-5dd8-4578-a841-fda335f62537_keyartofficialvideoimage.jpg"
+        description: "Mio, A Sınıfı ve C Sınıfı'nın birlikte çalıştıkları ortaya çıktığından, Suzune'nin kartını güvence altına aldığı amatör telsiz aracılığıyla Katsuragi'yi bilgilendirir. Sakatlanan Suzune testten çekildi. Son gün, öğrenciler kamplarını kaldırır ve sınıflar, B Sınıfı herhangi bir tahminde bulunmamayı tercih ederek liderleri tahmin eder. Toplantıda Ryuen, Katsuragi ile kart veya fotoğraf karşılığında 200 test noktasını A Sınıfı'na transfer etmek için gizlice bir anlaşma yaptığını ortaya koyuyor. C Sınıfı kalan 100 puanı hızla harcadı ve sonuncusu B Sınıfı'nda casusluk yapmakla görevlendirilen Ryuen, Mio ve Kaneda dışındaki herkes testten çekildi. C Sınıfı liderleri tahmin ederdi: A Sınıfı için Yahiko Totsuka, B Sınıfı için Chihiro Shiranami ve D Sınıfı için Suzune. Sonuçlar açıklandı ve kazanan 225 puanla D Sınıfı, ardından 140 puanla B Sınıfı, 120 puanla A Sınıfı ve puansız C Sınıfı oldu. Öğrenciler yolcu gemisine geri dönerler; burada Arisu Sakayanagi, müttefiki Hashimoto gizlice A-Sınıfı liderini Ryuen'e ifşa ederken Katsuragi'nin sınıf üzerindeki etkisini zayıflatmak için herkesin güvenmemesine neden olarak işlerin plana göre gittiğini açıklar. Kiyotaka, Suzune'ye Mio'nun kartı çalmasına izin verdiğini söyler ve Kiyotaka, Suzune'nin yerine lider olur ve A Sınıfı ve C Sınıfı'nın Mio'yu yanlış tahmin etmesini sağlar. Diğerlerini tahmin etmeye gelince, Katsuragi'nin kartının sadece arka yüzünü gördüğünü ve ne kadar temkinli olduğunu bildiğinden Totsuka'nın A Sınıfı lideri olduğu sonucuna vardığını ortaya koyuyor. Ryuen'in geri çekilmediğinin farkındaydı ve onu Mio'nun kullandığı aynı telsizle gördüğü için onu Sınıf-C'nin lideri olarak tahmin etmesine yol açtı. Sınıf-D'nin Sınıf-B ile olan ittifakını tehlikeye atmayı reddeden Kiyotaka, Sınıf-B'nin liderini seçmemeyi tercih etti. Ryuen, A Sınıfı ile ittifakın ana motivasyonunun, mezun olana kadar her A Sınıfı öğrencisinden 20.000 puan almak için bir sözleşme imzalaması olduğunu ortaya koyuyor. Chabashira ile yaptığı görüşmede Kiyotaka, ondan kovulmasını isteyen adamın babası olduğunu öğrenir. Kiyotaka, Chabashira'ya babasının onu okuldan alma girişimlerine rağmen ona karşı gelmeye devam edeceğini söyler. Suzune'ye müttefiklere ihtiyacı olduğunu söyleyen Kiyotaka, Hirata'ya başkalarının ona güvenmesini sağlamak için D Sınıfı'nın zaferinden kendisinin sorumlu olduğunu söyler. Ancak Kiyotaka, Suzune veya sınıfındaki herhangi biri ile sadece onları ve genel olarak insanları araç olarak gördüğü için hiçbir şey yapmak istemez ve sonunda 'kazandığı' sürece başkalarını kullanmaya ve feda etmeye devam edecektir."
         fansubs: ["TempestFansub", "AkiraSubs"]
         urls:
           TempestFansub: "https://odnoklassniki.ru/videoembed/1774381697639"
@@ -154,19 +540,25 @@ seasons:
   season2:
     seasonName: "2. Sezon"
     episodeCount: 12
-    uploadedEpisodeCount: 7
+    uploadedEpisodeCount: 10
     startDate: "4 Temmuz 2022"
     endDate: "11 Ekim 2022"
     isCompleted: false
     description: "Ada Özel Sınavını takiben gemi yolculuğuna geri dönmek, sorunsuz bir seyirden başka bir şey değildir. Döndüklerinin hemen ardından, Tokyo Metropolitan İleri Yetiştirme Lisesi'nin birinci sınıf öğrencileri, hem sınıf hem de bireysel puanların söz konusu olduğu başka bir özel sınavla karşı karşıyadır.Karmaşık kurallara ek olarak, Kakeru Ryuuen ve Kei Karuizawa şeklinde daha fazla sorun ortaya çıkıyor. Önceki testin sonucundan öfkelenen Ryuuen, gerekli tüm araçları kullanarak yeni mücadelede her sınıfı geçmeye kararlıdır. Bu arada, D sınıfının önemli bir ayağı olan Karuizawa, geçmişinin baskısı altında parçalanmaya yakındır. Kiyotaka Ayanokouji'nin planının, öngörüsünün ve acımasız manipülasyonunun tüm sınırlarını kullanarak bir kez daha D Sınıfı'nı zafere yönlendirmesi için sahne hazır."
     seasonCover: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx145545-DGl3LVvFlnHi.png"
+    trailer: "https://www.youtube.com/watch?v=Bp2nNZPNegE"
+    openingtheme:
+      name: "Dance in the Game"
+      artist: "ZAQ"
+      url: "https://www.youtube.com/watch?v=9deedzO71hk"
+      duration: "1:40"
     episodes:
       episode1:
         episodeName: "Zor durumlarda serinkanlılığını korumayı sakın unutma."
         episodeDate: "4 Temmuz 2022"
         uploaderID: "000001"
-        episodePreview: "https://image.tmdb.org/t/p/w227_and_h127_bestv2/qUMhwS1QbTY6wuAv7CemW1AGVZA.jpg"
-        description: "Herhangi bir açıklama bulunamadı."
+        episodePreview: "https://animecorner.me/wp-content/uploads/2022/07/classroom-of-the-elite-season-2-episode-1.jpg"
+        description: "Akane Tachibana, ilk yılın ilk Özel Test sonuçlarını Manabu Horikita'ya bildirdi. Yosuke Hirata, gemi yolculuğuna geri döndüğünde, Kiyotaka'dan öğle yemeğine kadar kendisine eşlik etmesini ister, ancak Kiyotaka, Kei Karuizawa'dan söz edildikten sonra reddeder. İlk yıllara ikinci bir Özel Test hakkında bilgi verilir - her öğrenci belirli bir zamanda bir buluşma noktasında buluşacaktır. Kendisi de dahil olmak üzere, Kiyotaka'nın buluşma yeri Kei ve sınıf arkadaşları Hideo Sotomura ve Teruhiko Yukimura'dan oluşur; orada, bir eğitmen Özel Testi açıklar."
         fansubs: ["AkiraSubs", "Arcadia"]
         urls:
           AkiraSubs: "https://mega.nz/embed/tVpjUYiD#sMaOXjbXVvaQTy8WV0wH7tOL2P1QpjMJiJtrDRgAPCA"
@@ -177,8 +569,8 @@ seasons:
         episodeName: "İnsanların tüm günahlarının 2 kaynağı vardır; Sabırsızlık ve Tembellik."
         episodeDate: "10 Temmuz 2022"
         uploaderID: "000001"
-        episodePreview: "https://animecix.net/storage/media-images/posters/sENYJdd7B9HvPLJIsaus2lzzyQlcZEHOsQ9l9Bzb.png"
-        description: "Herhangi bir açıklama bulunamadı."
+        episodePreview: "https://www.leisurebyte.com/wp-content/uploads/2022/07/Screenshot-181.png"
+        description: "Hirata birinden Kikyo Kushida'nın VIP olduğu bilgisini alır ve bunu Yukimura ve Kiyotaka'ya söyler. Rokusuke Koenji muhtemelen gerçek VIP'yi keşfeder ve sonuç olarak Jüpiter grubunun testi sonuçlanmıştır. Suzune, Koenji'nin pervasız bir hareket yapmasına üzülür ve o ve Kiyotaka, en fazla sınıf puanını almak için D Sınıfı'nı birleştirmeye karar verir. Bunu yapmak için, D Sınıfı kızlar arasında güçlü bir varlığı olduğu için Kei'yi birincil oyuncu olarak kullanmaya karar verirler. Yine de Kiyotaka, Kei'nin normal kibirli tavrına kıyasla alışılmadık derecede pasif olduğunu belirtiyor. Ryuen bir kez daha ortaya çıkar ve testi kazanma niyetini beyan eder. Sonuçları alabilmesi için sınıf arkadaşlarını telefonlarını vermeye ikna etti; Suzune'nin reddettiği A Sınıfını devirmek için B, C ve D Sınıflarının birleşmesini önerdikten sonra ayrıldı. Başka bir yerde, Kei çöküşünden kurtuluyor ve başkalarına bağımlı olduğu için kendisine bir 'parazit' olarak atıfta bulunuyor. Kiyotaka ve Kikyo birbirlerini bulurlar ve utanarak ona sarıldıktan sonra ayrılır. B Sınıfı öğretmeni Chie Hoshinomiya, D Sınıfı öğretmeni Sae Chabashira'ya, Sae'nin yanıt vermediği Ada testi sona erdiğinde Kiyotaka'nın nasıl lider olduğunu sorar."
         fansubs: ["AkiraSubs", "Yuusha"]
         urls:
           AkiraSubs: "https://mega.nz/embed/8MwggAKK#-SphJ5lLBk5stuqFWXQJwWbcGSnUBBSfJpIgsIGyCTU"
@@ -189,8 +581,8 @@ seasons:
         episodeName: "En büyük ruhlar, en büyük erdemlere olduğu kadar en büyük kötülüklere de yeteneklidirler."
         episodeDate: "18 Temmuz 2022"
         uploaderID: "000001"
-        episodePreview: "https://animecix.net/storage/media-images/posters/A125y2efQ8RZfLnWLqvR1L3iirp2HxLPj5vCDd71.png"
-        description: "Herhangi bir açıklama bulunamadı."
+        episodePreview: "https://animecorner.me/wp-content/uploads/2022/07/classroom-of-the-elite-season-2-episode-3-5.jpg"
+        description: "Yukimura ve Kiyotaka sonunda duruma müdahale eder, ancak Kei onları azarlar. Üçüncü gün boyunca, Venüs grubunun testi sona erdi; C Sınıfı'nın testi kullanmaya çalıştığını düşünen Kiyotaka, Shiho'ya bir e-posta gönderir. Shiho ve kızları, sınıf arkadaşları Rika ile birlikte ortaya çıktığında, Kei geminin tenha bir bölümüne çekilir. Shiho, Kei'nin daha önce zorbalığa uğradığını, Kei'nin panik atak geçirdiğinde doğrulandığını çıkarır. Shiho, Rika'yı acımasızca Kei'ye tokat atması için zorlarken Kiyotaka, Shiho'ya gönderdiği e-postanın Kei hakkında olduğunu açıklar. Kızlar gittikten sonra Kiyotaka ağlayan Kei'ye yaklaşır ve şu anki halini azarlar; Kei istismar deneyiminden bahsediyor. Kiyotaka göğsünde bir yara bulur; Bunu gördükten sonra, testi kazanmak için D Sınıfını birleştirmek için onunla birlikte çalışması karşılığında onu korumaya yemin eder. Daha sonra Kiyotaka, puanlarıyla bir şeyler almak için Sae'ye gider."
         fansubs: ["AkiraSubs", "AkiraSubs"]
         urls:
           AkiraSubs: "https://mega.nz/embed/QNxmGI4Z#i1RkBL4iWmsTtOIAUl8dT-jZrnUXAeWZRX2uNbrfcRU"
@@ -199,8 +591,8 @@ seasons:
         episodeName: "Materyal Yaratılmalı."
         episodeDate: "25 Temmuz 2022"
         uploaderID: "000001"
-        episodePreview: "https://image.tmdb.org/t/p/w227_and_h127_bestv2/oF6UbzQQce0xri9vHL7cCaN9N3J.jpg"
-        description: "Herhangi bir açıklama bulunamadı."
+        episodePreview: "https://www.leisurebyte.com/wp-content/uploads/2022/07/Screenshot-345-1024x576.png"
+        description: "VIP'ler, adlarının Hiragana yazıtındaki konumuna ve söz konusu VIP'nin karşılık gelen gezegen grubuna göre seçildi. D Sınıfı, Class-C'nin nasıl tam olarak birleşmediğinden bahsediyor. Okul, Kırmızı Takım vs Beyaz Takım temasıyla 13 etkinliklik bir Spor Festivali düzenleyecektir -- Kırmızı Takım A ve D Sınıflarından ve Beyaz Takım B ve C Sınıflarından oluşur. Spor Festivalinin birçok değeri vardır (ilk üç Yerleştirmeler, yazılı sınavlarında 1.000 özel puan veya ikramiye ve ceza (en alttaki on yerleştirme, yazılı sınavlarında ikramiye kaybeder) arasında bir seçime sahiptir ve etkinlikler için katılımcılara sınıflar karar verebilir. Kiyotaka ve Suzune, Spor Festivali'ni önceki iki özel testten ayıran sıkı bir hazırlıktan bahsediyorlar; Suzune 'haksız' yöntemlerle kazanmak istiyor ama Kiyotaka 'normal' yöntemlerle kazanabileceklerine inanıyor. Daha sonra sınıf, katılımcıları beceri veya gönüllülük yoluyla seçmeye karar verir; Suzune, etkinlikleri kazanmak için daha güçlü ve daha zayıf öğrencileri eşleştirmeleri gerektiğini, daha zayıf öğrencilerin esasını kaybetme riskiyle karşı karşıya kalmalarını önerir. Kei, Suzune'nin teklifine katılmaz."
         fansubs: ["AkiraSubs", "AkiraSubs"]
         urls:
           AkiraSubs: "https://ok.ru/videoembed/4201409546985"
@@ -209,8 +601,8 @@ seasons:
         episodeName: "Her başarısızlık başarıya giden bir adımdır."
         episodeDate: "1 Ağustos 2022"
         uploaderID: "000001"
-        episodePreview: "https://m.media-amazon.com/images/M/MV5BZGUyMzBhYjMtZGM2NC00NzQwLTg0ZGYtMGU2MzJmMGNiOWRmXkEyXkFqcGdeQXVyMTAzOTg5MDQ5._V1_UY126_UX224_AL_.jpg"
-        description: "Herhangi bir açıklama bulunamadı."
+        episodePreview: "https://www.theanimedaily.com/wp-content/uploads/2022/07/Classroom-of-the-Elite-Season-2-Episode-5-Release-Date-1024x571.jpg"
+        description: "Kiyotaka ve Suzune, Kikyo'nun diğer sınıflardan özel puanlar aldığı için sınıfa ihanet ettiğini düşünüyor. Üçü, Suzune'nin hediye olması Kikyo'yu çok üzecek şekilde Beyaz Takımı gözetlemeye gider; Suzune açıkça Kikyo'nun VIP bilgilerini satıp satmadığını sorar, Kikyo bunu reddeder ve ona güvenmek ister. Spor Şenliği başlıyor. Ken Sudo, D Sınıfı'nı motive ederken, A Sınıfı'ndan Arisu Sakanagi Festivali izliyor. Koenji okulu bıraktığında, Sudo sınıfın moralini düşürür. Ryuen Sudo'yu yendiğinde Kırmızı Takım 'Direk Devirme' etkinliğini kaybeder; Suzune, C Sınıfı'ndan Saki Kinoshita ile çarpıştıktan sonra yaralanınca işler daha da kötüleşir. Koenji'yi yeniden katılmaya ikna edemeyen Suzune, Kikyo'nun doğal karizmasına sahip olmasını diler ve bir noktada ondan hoşlandığını itiraf eder. Beyaz Takım, Sudo ve Suzune'u hedeflemeye devam ederek D-Sınıfı moralini düşürmeye devam ediyor."
         fansubs: ["AkiraSubs", "AkiraSubs"]
         urls:
           AkiraSubs: "https://mega.nz/embed/UIAyWJpI#jGvmsyX4x-V7wkFjX48T2mWnejrZEFjCtZPjB0i1d64"
@@ -219,8 +611,8 @@ seasons:
         episodeName: "Güçlükler Gerçeğe Doğru Atılan İlk Adımdır."
         episodeDate: "8 Ağustos 2022"
         uploaderID: "000001"
-        episodePreview: "https://m.media-amazon.com/images/M/MV5BYTU5ZTM4MjYtM2RmMS00ZGVkLWJjZTItY2IyZDkwMWMwMWU2XkEyXkFqcGdeQXVyMTEwMjk4Nzk5._V1_UY126_UX224_AL_.jpg"
-        description: "Herhangi bir açıklama bulunamadı."
+        episodePreview: "https://pic-bstarstatic.akamaized.net/ugc/6d2c3df0f122e0bf677a3783bc10898d.jpg@960w_540h_1e_1c_1f.webp"
+        description: "Suzune, Sudo'yu yeniden katılmaya ikna etmeye çalışır, ancak Sudo bunu reddettikten sonra onu azarlar. Sudo, Festival'e dikkat çekmek ve kendisi hakkında kötü konuşanlardan intikam almak için katıldığını itiraf ediyor; Suzune, pes etmemesi ve savaşmaya devam etmesi gerektiğini, yoksa değersizleşeceğini ve dönüşünü bekleyeceğini onaylar. Mola sona ermeden önce Kiyotaka, Kikyo ile hain olduğu konusunda yüzleşir. Başlangıçta suçlamayı reddediyor, ancak Kiyotaka'nın katılım listesini sızdırdığını bilseydi neden listeyi değiştirmediğine dair bir fikir ortaya koyuyor ve bunun sınıflar arası karışıklığa neden olacağı sonucuna varıyor. Sonunda, Suzune ve Kiyotaka'nın kovulduğunu görme arzusu için listeyi sızdırdığı ve VIP bilgilerini Ryuen'e sattığı için hain olduğunu ortaya koyuyor. Suzune, Sudo'yu bir kez daha ikna etmeye çalışır ve başkalarından onay alma konusunda nasıl aynı olduklarından bahseder. Ağabeyinden her zaman onay beklediğini, ona ulaşmak için kendini diğerlerinden dışladığını anlatıyor; D Sınıfı ile olan deneyimlerinden geçtikten sonra, tek başına savaşamayacağını ve müttefiklere ihtiyacı olduğunu fark eder, Sudo'nun sözlerinden etkilendikten sonra teslim olur."
         fansubs: ["AkiraSubs", "AkiraSubs"]
         urls:
           AkiraSubs: "https://mega.nz/embed/xZQAzIbD#SxgpgXrByOrHEDnj-NWDg3jydDGdKbn7V2I0IhSsRqc"
@@ -229,9 +621,41 @@ seasons:
         episodeName: "Her şeyden şüphe etmek ve her şeye inanmak bizi düşünmekten azat eden iki eşit çözümdür."
         episodeDate: "15 Ağustos 2022"
         uploaderID: "000001"
-        episodePreview: "https://image.tmdb.org/t/p/w227_and_h127_bestv2/l6bI7i1sKKCa94bLZ7R5WM0qRVN.jpg"
-        description: "Herhangi bir açıklama bulunamadı."
+        episodePreview: "https://animecorner.me/wp-content/uploads/2022/08/classroom-of-the-elite-season-2-episode-7-preview-image-2.jpg"
+        description: "Manabu Horikita, Öğrenci Konseyi başkanlığından istifa ettiğini açıkladı. Onun yerine okulu bir meritokrasi haline getirmeyi planlayan 2-A sınıfından Miyabi Nagumo olacak. Toplantıdan sonra 1-A'dan Kohei Katsuragi Kiyotaka, Suzune ve D Sınıfı'na Ryuen'e karşı dikkatli olmalarını tavsiye eder. O ayrıldıktan sonra, 1-D'den Maya Sato utangaç bir şekilde Kiyotaka'dan numaralarını değiştirmesini ister ve Kiyotaka'nın ona aşık olduğunu ima eder. D Sınıfı'nın Festival için sonuncu olmasına rağmen, Chabashira'nın sürprizine ve içeriğine göre, öğrencilerin hiçbiri okuldan atılmadı. Daha sonra sınıfa, final sınavları olarak hizmet edecek bir sonraki Özel Test hakkında bilgi verir: Kağıt Karıştırma."
         fansubs: ["AkiraSubs", "AkiraSubs"]
         urls:
           AkiraSubs: "https://ok.ru/videoembed/4269135891177"
           AkiraSubsSource: "Odnoklassniki"
+      episode8:
+        episodeName: "Yüreğinde Sessiz Bir Yarayla Yaşamak."
+        episodeDate: "21 Ağustos 2022"
+        uploaderID: "000001"
+        episodePreview: "https://animecorner.me/wp-content/uploads/2022/08/classroom-of-the-elite-season-2-episode-8-preview-images-5-1.jpg"
+        description: "Kikyo, sınıf patlamasının ardından gelen düşüncelerini hatırlıyor. D Sınıfı, Kikyo ve Suzune'nin gözetmen olarak görev yaptığı Kağıt Karıştırma Sınavı için çalışma oturumları düzenleyecek. Kikyo bir e-posta aldığında sınıftan fırlar. Yukimura, Kağıt Karıştırma Sınavı için bir çifti -- Akito Miyake ve Haruka Hasebe -- denetlemeyi teklif ediyor -- kazanmak için birlik ve işbirliğinin gerekli olduğuna dikkat çekiyor; Suzune, Kiyotaka'dan ilerlemeyi izlemek için Yukimura'nın grubuna katılmasını ister. Yukimura'nın çalışma toplantısında öğrenciler, Festivaldeki performansı göz önüne alındığında Kiyotaka'yı kendini tutmayı bırakmaya teşvik eder. Kiyotaka, okulun sorulara aracılık edecek bir sistemi olabileceğini belirterek, sınıfların sınav için yaptığı her türlü kirli numaraya hazırlanmanızı tavsiye ediyor. Aynı günün ilerleyen saatlerinde, Kiyotaka bu bilgiyi Suzune'ye aktarır ve ikisi Kikyo'ya göz kulak olmayı tartışarak onu Suzune'nin grubunu denetlemeye davet eder. Kiyotaka, Ryuen'den D Sınıfı'nın beyninin kim olduğunu soran bir e-posta alır."
+        fansubs: ["AkiraSubs", "AkiraSubs"]
+        urls:
+          AkiraSubs: "https://mega.nz/embed/sFJz1C5B#sEFnfrviRvy7kipZMOPjSQXyVFNN5kHRpbOxbJ9E7go"
+          AkiraSubsSource: "MEGA"
+      episode9:
+        episodeName: "Hata, ancak yaptıktan sonra düzeltmezseniz hata olur."
+        episodeDate: "29 Ağustos 2022"
+        uploaderID: "000001"
+        episodePreview: "https://image.tmdb.org/t/p/w500_and_h282_face/rBCMbylhT1DItaOYpbQLPNcimoi.jpg"
+        description: "Kikyo, Ryuen'e Kiyotaka ve Suzune ile bahsi hakkında bilgi verir; sınır dışı edilmeleri karşılığında Kikyo, C Sınıfı Kağıt Karıştırma Sınavı'nı kazanmasına izin verecek. Daha sonra, Ryuen Kiyotaka'nın çalışma oturumuna izinsiz girer ve belli belirsiz bir şekilde D Sınıfı beyni bulmak için e-postayı sorar. C sınıfı bir öğrenci olan Hiyori Shiina, Kiyotaka ve Yukimura'nın unutulabilir yüzleri olduğunu belirtiyor. Bu nedenle, onların beyni olup olmadığından emin değil. Çalışma grubuyla rahat hisseden Haruka, adlarını Akito, Kiyotaka ve Yukimura ile paylaşacakları bir arkadaş grubu kurmaya karar verir. Airi de 'Ayanokoji Grubu' olarak adlandırılan gruba katılıyor. O gecenin ilerleyen saatlerinde Kiyotaka, Kei'yi Kağıt Karıştırma Sınavı için önemli bir rol oynaması için arar ve bunu yapmayı kabul eder ve ardından ona bir doğum günü dileği gönderir."
+        fansubs: ["AkiraSubs", "AkiraSubs"]
+        urls:
+          AkiraSubs: "https://mega.nz/embed/tdA1yJbJ#xLYFrEcBS8bti0qzNEQOStnUpYJ6FBfFGGWuhicEKNU"
+          AkiraSubsSource: "MEGA"
+      episode10:
+        episodeName: "Aldatıcı iyiliklere kanan insanlar kendi sonlarını getirirler."
+        episodeDate: "5 Eylül 2022"
+        uploaderID: "000001"
+        episodePreview: "https://www.leisurebyte.com/wp-content/uploads/2022/09/Screenshot-6734.png"
+        description: "Her öğrenci Kağıt Karıştırma Sınavı'nı geçti. Ayanokoji grubu, Honami Ichinose ve Arisu Sakanagi'nin takıldığına tanık olurken, Honami ile ilgili her şeyin mükemmel olduğunu ve bunu rahatsız edici bulduklarını not eder; Sınıf-C'yi devirmek için Honami'yi hedef almaya karar verirler. Bir C sınıfı öğrenci, Kei'yi takip eder. O gecenin ilerleyen saatlerinde Kei, Kiyotaka'nın olayı bilmesini sağlar ve ayrıca A Sınıfı bir öğrencinin çalışma oturumlarında casusluk yaptığını bilmesini sağlar. Ertesi gün, birçok D-Sınıfı öğrencisi C-Sınıfı tarafından kışkırtılıyor; Suzune, Ryuen'in bunu beyni sömürmek için yaptığını ve onun deha olduğunu söylemediğini not eder. Kiyotaka, Suzune'nin kitabını kütüphaneye iade ederken C sınıfından Hiyori'yi görür ve ikisi rakip sınıflarda olmalarına rağmen sevdikleri kitaplar hakkında konuşurlar. Daha sonra Kiyotaka, bir buçuk yıldır görmediği babasının beklediği bir kabul odasına götürülür."
+        fansubs: ["AkiraSubs", "Yuusha"]
+        urls:
+          AkiraSubs: "https://mega.nz/embed/wQJxQDKL#eOHjfxXK1UAIvndVZZ_HQXh3bG1_z5agrTDBBG5l01E"
+          Yuusha: "https://mega.nz/embed/QakGULDK#0lx2uCL2lvm0c5Wb8jQjvY9IUWZFAO3M1pDYfjgi4fk"
+          AkiraSubsSource: "MEGA"
+          YuushaSource: "MEGA"

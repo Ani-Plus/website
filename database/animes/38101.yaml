@@ -1,0 +1,29 @@
+uploadedSeasonCount: 1
+uploadedEpisodeCount: 1
+seasons:
+  season1:
+    seasonName: "1. Sezon"
+    episodeCount: 12
+    uploadedEpisodeCount: 1
+    startDate: "11 Ocak 2019"
+    endDate: "27 Mart 2019"
+    isCompleted: true
+    description: "Fuutarou Uesugi, bir gün zengin transfer öğrencisi Itsuki Nakano ile tanışan fakir, asosyal bir öğrencidir. Uesugi, zengin kız öğrenciye özel ders verecektir ve bu sırada diğer dört kız ile de tanışmaya başlar."
+    seasonCover: "https://www.anitube.site/wp-content/uploads/5-toubun-no-Hanayome-2-Todos-os-Epis%C3%B3dios-AniTube.jpg"
+    trailer: "https://www.youtube.com/watch?v=cYhQRTmU0aA"
+    openingtheme:
+      name: "Gotoubun no Kimochi"
+      artist: "Nakanoke no Itsuzugo"
+      url: "https://www.youtube.com/watch?v=FKIT6G_lw7c"
+      duration: "1:30"
+    episodes:
+      episode1:
+        episodeName: "Eşsiz Beşizler"
+        episodeDate: "11 Ocak 2019"
+        uploaderID: "000001"
+        episodePreview: "https://img1.ak.crunchyroll.com/i/spire4-tmb/4af2bfc0975916473c2d6bd9467134e91547154171_main.jpg"
+        description: "Herhangi bir açıklama bulunamadı."
+        fansubs: ["TempestFansub", "TempestFansub"]
+        urls:
+          TempestFansub: "https://odnoklassniki.ru/videoembed/970539862532"
+          TempestFansubSource: "Odnoklassniki"

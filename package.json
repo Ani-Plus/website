@@ -9,6 +9,8 @@
     "dependencies": {
         "@nuxtjs/auth-next": "5.0.0-1648802546.c9880dc",
         "@nuxtjs/axios": "^5.13.6",
+        "@nuxtjs/tailwindcss": "^5.3.2",
+        "cookie-universal-nuxt": "^2.2.2",
         "nuxt": "^2.15.8"
     }
 }

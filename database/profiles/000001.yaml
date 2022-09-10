@@ -1,6 +1,20 @@
-username: "Falsis"
+username: Ayanokōji Kiyotaka
 userid: "000001"
-useravatar: "https://cdn.discordapp.com/attachments/775822548519616562/1007536475660882072/unknown.png"
+userpassword: ayanokojikiyotaka
+status: offline
+useravatar: https://static.wikia.nocookie.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/images/a/ae/Kiyotaka_Ayanok%C5%8Dji_CharMug.png
 isMod: true
-lists: ["000001", "000002"]
-animes: ["22199", "35507"]
+uploadedEpisodes: 33
+addedAnimes: 7
+listsCount: 2
+lists:
+  - "000001"
+  - "000002"
+animes:
+  - "1575"
+  - "22199"
+  - "28999"
+  - "31478"
+  - "35507"
+  - "37982"
+  - "38101"

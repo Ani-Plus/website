@@ -1,0 +1,31 @@
+uploadedSeasonCount: 1
+uploadedEpisodeCount: 1
+seasons:
+  season1:
+    seasonName: "1. Sezon"
+    episodeCount: 12
+    uploadedEpisodeCount: 1
+    startDate: "7 Nisan 2016"
+    endDate: "23 Eylül 2016"
+    isCompleted: true
+    description: "Nakajima Atsushi, yetimhaneden atıldıktan sonra, ne gidecek yeri ne de yiyecek yemeği kalmıştır. Bir nehrin kenarında aç bi ilaç sürünürken, intihar girişiminde bulunan bir adamı kurtarır. Adı Dazai Osamu olan bu adam, ortağı Kunikida ile çok özel bir dedektif kurumunun üyesidir. Doğaüstü güçleri vardır ve polis ya da askeriye için çok zorlu olan davaları ele alırlar. Atsushi o bölgeye geldiği sıralarda, bölgede ortaya çıkan bir kaplanın peşindedirler. Kaplanın, Atsushi’yle bir bağlantısı olduğu düşünülmektedir ve zamanla dava çözülür. Sonrasında Atsushi, Dazai ve diğer dedektiflerle daha çok içli dışlı olacaktır."
+    seasonCover: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21311-hAXyT8Yoh6G9.jpg"
+    trailer: "https://www.youtube.com/watch?v=f9OV_KzR3SM"
+    openingtheme:
+      name: "Trash Candy"
+      artist: "Granrodeo"
+      url: "https://www.youtube.com/watch?v=tvHqaimwcKE"
+      duration: "1:32"
+    episodes:
+      episode1:
+        episodeName: "Şans Öngörülemez ve Değişkendir"
+        episodeDate: "7 Nisan 2016"
+        uploaderID: "000001"
+        episodePreview: "https://lostinanime.com/wp-content/uploads/2016/04/Bungou-Stray-Dogs-01-10.jpg"
+        description: "Aç, evsiz bir yetim olan Nakajima Atsushi, nehirde yüzen ve boğuluyor gibi görünen bir adamla karşılaşır. Atsushi, bilincine varan ve kendini intihar manyağı Osamu Dazai olarak tanıtan adamı dalar ve kurtarır. Dazai'nin meslektaşı Doppo Kunikida nehrin karşısından Dazai'ye bağırır ve sonunda Atsushi'ye bir çay evinde bir chazuke yemeği ısmarlar. Atsushi, Kunikida ve Dazai'nin doğaüstü yeteneklere sahip bireylerden oluşan bir örgüt olan Silahlı Dedektiflik Bürosu için çalıştığını keşfeder. Dazai ve Kunikida, depoları ve çiftlik hayvanlarını harap eden bir kaplanı aradıklarını açıklar. Atsushi, kaplanın seyahati boyunca onu takip ettiğini ve iki ajanın onu yakalamasına yardımcı olmak için yem olarak poz verdiğini belirtir. Dazai, Kunikida'ya bir not verir ve Atsushi'yi bir depoya götürür. Atsushi, para biriktirmek için yetimhaneden nasıl atıldığını, çünkü kaplanın maddi açıdan yoksul yetimhaneye büyük zarar verdiğini anlatıyor. Dazai, Atsushi'nin kaplan olduğu, daha doğrusu ay ışığı altında kaplana dönüşebilecek doğaüstü bir güce sahip olduğu sonucuna varır. Dolunay ortaya çıkar ve Atsushi dönüşür ve özel yeteneğini ortaya çıkaran Dazai'ye saldırır: Bir kişiye dokunduğunda diğer tüm yetenekleri durduran 'No Longer Human'. Atsushi'yi boyun eğdirebilir. Kısa bir süre sonra Kunikida, diğer üç ajanla olay yerine gelir. Dazai, Atsushi'yi Silahlı Dedektiflik Bürosu'nun bir üyesi yapmaya karar verir."
+        fansubs: ["AniSekai", "Ato"]
+        urls:
+          AniSekai: "https://video.sibnet.ru/shell.php?videoid=2995098"
+          Ato: "https://odnoklassniki.ru/videoembed/3112928807620"
+          AniSekaiSource: "Sibnet"
+          AtoSource: "Odnoklassniki"

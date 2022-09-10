@@ -1,0 +1,29 @@
+uploadedSeasonCount: 1
+uploadedEpisodeCount: 1
+seasons:
+  season1:
+    seasonName: "1. Sezon"
+    episodeCount: 12
+    uploadedEpisodeCount: 1
+    startDate: "12 Ocak 2019"
+    endDate: "30 Mart 2019"
+    isCompleted: true
+    description: "Lise öğrencisi Natsuo, neşeli ve popüler öğretmeni Hina'ya umutsuzca âşıktır. Bir gün bir partideyken, Rui adındaki bunalımlı bir kızla tanışır ve bu tanışma yatakta sonuçlanır. Bir müddet sonra Natsuo'nun babası yeniden evleneceğini açıklar. Evleneceği kadının iki tane kızı vardır. Ve ortaya çıkar ki bu iki kız Hina ve Rui'den başkası değildir! Natsuo'nun şok edici yeni hayatı başlar!"
+    seasonCover: "https://fanzade.com/wp-content/uploads/2018/07/domekano01-724x1024-724x1024.jpg"
+    trailer: "https://www.youtube.com/watch?v=INdP8pkNjHY"
+    openingtheme:
+      name: "Kawaki wo Ameku"
+      artist: "Minami"
+      url: "https://www.youtube.com/watch?v=Ua5UARWRYLA"
+      duration: "1:31"
+    episodes:
+      episode1:
+        episodeName: "Benimle burada yapacak mısın?"
+        episodeDate: "12 Ocak 2019"
+        uploaderID: "000001"
+        episodePreview: "https://animeanime.global/wp-content/uploads/2020/11/365247-1.jpg"
+        description: "Liseli Natsuo, öğretmeni Hina'ya aşıktır. Duygularını aşmaya çalışan Natsuo, arkadaşlarıyla bir grup randevusuna çıkar ve Rui Tachibana adında sessiz bir kızla tanışır. Olayla ilgilenmeyen ikili, gizlice dışarı çıkar. Natsuo'yu evine götürür ve onunla romantik olarak ilgilenmemesine rağmen onunla seks yapmasını ister. Daha sonra, dul babası Natsuo'ya yeniden evleneceğini söyler ve Natsuo yeni üvey kız kardeşlerinin Hina ve Rui olduğunu öğrenir. Evlendikten sonra birlikte yeni bir eve taşınırlar. Herkes yatmaya giderken, Natsuo uyuyan bir Hina'yı öpmeye çalışır ama Rui tarafından kesintiye uğrar."
+        fansubs: ["LowSubs", "LowSubs"]
+        urls:
+          LowSubs: "https://video.sibnet.ru/shell.php?videoid=4428284"
+          LowSubsSource: "Sibnet"

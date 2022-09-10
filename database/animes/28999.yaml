@@ -1,0 +1,29 @@
+uploadedSeasonCount: 1
+uploadedEpisodeCount: 1
+seasons:
+  season1:
+    seasonName: "1. Sezon"
+    episodeCount: 13
+    uploadedEpisodeCount: 1
+    startDate: "5 Temmuz 2015"
+    endDate: "27 Eylül 2015"
+    isCompleted: true
+    description: "Hikâyemiz, bir grup ergenlik çağındaki kız ve erkeğin arasında görülen özel yetenekleri konu almaktadır. Yuu Otosaka gücünü kimseye bir şey belli etmeden kullanıp, normal, sıradan bir okul hayatı yaşamaktadır. Birdenbire karşısına Nao Tomori adında bir kız çıkar. Onunla karşılaşmasından dolayı, özel güç kullanıcılarının kaderi açığa çıkacaktır."
+    seasonCover: "https://image.tmdb.org/t/p/w500/qzeOvTI4eXHKTJLIy9EJQIdbyOy.jpg"
+    trailer: "https://www.youtube.com/watch?v=6AgEzww-a0w"
+    openintheme:
+      name: "Bravely You"
+      artist: "Lia"
+      url: "https://www.youtube.com/watch?v=G99YyzOYKGc"
+      duration: "1:42"
+    episodes:
+      episode1:
+        episodeName: "Başkalarını düşünüyorum."
+        episodeDate: "5 Temmuz 2015"
+        uploaderID: "000001"
+        episodePreview: "https://www.charlotteanime.com/assets/img/story/slider_01/04.jpg"
+        description: "Görüş alanındaki herkesi beş saniyeliğine geçici olarak ele geçirme yeteneğine sahip bir çocuk olan Yuu Otosaka, sınavlar sırasında diğer öğrencilerin cevaplarına bakarak gücünü kötüye kullanıyor. Popüler Yumi Shirayanagi'yi etkileme yeteneğini bir kez daha kullandığı prestijli Hinomori Lisesi'ne girmeyi başarır. Yuu'nun mükemmel puanları, onu sınava kendi başına tekrar girmeye veya kopya çektiği gerekçesiyle okuldan atılmaya zorlayan öğrenci konseyi başkanı Yoshiyuki Ōmura'nın dikkatini çeker. Bu, yeteneklerini eylem halinde gözlemleyen Nao Tomori adlı bir kız tarafından kurulan bir tuzak olduğu ortaya çıkıyor. Yuu kaçmaya çalışır, ancak kontrol edilemeyen yüksek hızlarda hareket edebilen Jōjirō Takajō tarafından yakalanır, ardından kendisini belirli bir hedefe görünmez hale getirebilen Nao, Yuu'yu döver. Nao, onun ve küçük kız kardeşi Ayumi Otosaka'nın kendisi gibi yeteneklere sahip olanlar için bir okul olan Hoshinoumi Akademisi'ne transfer edilmesini ayarlar. Kendisine uygulanan kısıtlamalar sonucunda Yumi tarafından terk edilen Yuu, Hoshinoumi Akademisi öğrenci konseyinin bir üyesi olarak yeni hayatına isteksizce hazırlanır."
+        fansubs: ["AniSekai", "AniSekai"]
+        urls:
+          AniSekai: "https://myvi.ru/player/embed/html/o8Usguru-xsQk_MnZECkrCLdXAIsQagt7Cp81MGKoshBzO5bGThRPZsf-YOs1sWzX0"
+          AniSekaiSource: "MYVI"

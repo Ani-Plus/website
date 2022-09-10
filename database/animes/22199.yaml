@@ -1,21 +1,27 @@
 uploadedSeasonCount: 1
-uploadedEpisodeCount: 3
+uploadedEpisodeCount: 6
 seasons:
   season1:
     seasonName: "1. Sezon"
     episodeCount: 24
-    uploadedEpisodeCount: 3
+    uploadedEpisodeCount: 6
     startDate: "07 Temmuz 2014"
     endDate: "15 Aralık 2014"
-    description: "Tatsumi, kırsal kesimde yaşayan genç ve güçlü bir savaşçıdır. O ve 2 arkadaşı fakir köyleri için para kazanma hayali ile imparatorluk başkentine doğru yola çıkarlar. Ancak, büyük umutlarla geldikleri başkent, hiç de düşündükleri gibi çıkmayacaktır. Başkentin acımasızlığı ile yüzleştikten sonra hiç de düşündüğü bir yer olmadığını anlayan Tatsumi'nin yolu, bir olay sırasında Akame ve Night Raid adlı suikast örgütü ile kesişir."
+    description: "Tatsumi, kırsal kesimde yaşayan genç ve güçlü bir savaşçıdır. O ve 2 arkadaşı fakir köyleri için para kazanma hayali ile imparatorluk başkentine doğru yola çıkarlar. Ancak, büyük umutlarla geldikleri başkent, hiç de düşündükleri gibi çıkmayacaktır. Başkentin acımasızlığı ile yüzleştikten sonra hiç de düşündüğü bir yer olmadığını anlayan Tatsumi'nin yolu, bir olay sırasında Akame ve Gece Akıncıları adlı suikast örgütü ile kesişir."
     seasonCover: "https://cdn3.falsisdev.repl.co/anime/images?name=akamegakill"
+    traier: "https://www.youtube.com/watch?v=sCGWxQuSoDU"
+    openingtheme:
+      name: "Liar Mask"
+      artist: "Rika Mayama"
+      url: "https://www.youtube.com/watch?v=mAzFWd5WqOg"
+      duration: "1:40"
     episodes:
       episode1:
-        episodeName: "Karanlığı Öldür."
+        episodeName: "Karanlığı öldür."
         episodeDate: "07 Temmuz 2014"
         uploaderID: "000001"
-        episodePreview: "https://image.tmdb.org/t/p/w300/IqFfcllc7Jsu3IoABjA8Mo0qq3.jpg"
-        description: "Tatsumi, kırsal kesimde yaşayan genç ve güçlü bir savaşçıdır. O ve 2 arkadaşı fakir köyleri için para kazanma hayali ile imparatorluk başkentine doğru yola çıkarlar. Ancak, büyük umutlarla geldikleri başkent, hiç de düşündükleri gibi çıkmayacaktır. Başkentin acımasızlığı ile yüzleştikten sonra hiç de düşündüğü bir yer olmadığını anlayan Tatsumi'nin yolu, bir olay sırasında Akame ve Night Raid adlı suikast örgütü ile kesişir. Bu bozulmuş topluluk karşısındaki devrimcilerin suikast kolu olan Night Raid'e katılma kararı alan Tatsumi, artık Night Raid'in yanında başkente karşı savaşacaktır. Night Raid, görevini kötüye kullanan, halka zorbalık yapan insanlara suikast düzenlemeye devam ederken, tüm bu her şeyin başında olan başbakan Night Raid'e karşı en iyi askerlerinden oluşan bir grup kurar: Jeagers (Avcılar). Night Raid ile Jaegars'ın kapışması hiç de kolay olmayacaktı"
+        episodePreview: "https://i.ytimg.com/vi/bxU0SxaAayY/maxresdefault.jpg"
+        description: "Tatsumi adlı bir kılıç ustası, yoksul köyü için para toplamak umuduyla Başkent'e gider. Bir meyhanede sarışın bir kız tarafından soyulduktan sonra sokaklarda uyumaya zorlanır, ancak kısa süre sonra Aria adında zengin bir kız tarafından malikanesinde kalması için davet edilir. En iyi arkadaşları Sayo ve Ieyasu'nun Başkent'e gelmesini beklerken Tatsumi, geceleri saldırdığı bilinen bir grup suikastçı olan Gece Akıncıları'i öğrenir. Akşam olduğunda, malikanede Gece Akıncıları belirir ve Aria'nın korumalarını ve ebeveynlerini öldürür. Bu süre zarfında Tatsumi, Gece Akıncıları üyesi Akame'ye karşı karşıya gelirken Aria'yı korur, ancak tavernadaki sarışın kız Gece Akıncıları üyesi Leone tarafından kesintiye uğratılır. Leone, Tatsumi'ye Aria ve ailesinin Sayo ve Ieyasu da dahil olmak üzere kırsal kesimden birkaç kişiye işkence yaptığını açıklar. Sayo zaten ölü olduğundan, Tatsumi, Ieyasu ölmeden hemen önce Aria'yı tereddüt etmeden veya merhamet etmeden öldürür. Leone, Tatsumi'yi kendi isteği dışında Gece Akıncıları'e katılmaya davet eder."  
         fansubs: ["Knaves", "Netrip"]
         urls:
           Knaves: "https://mega.nz/embed/D9gmBZKL#_2pSQ-VgxOTwuQKqSSOlU4LBwBieSmIw25TwS3T988w"
@@ -23,11 +29,11 @@ seasons:
           KnavesSource: "MEGA"
           NetripSource: "UQLOAD"
       episode2:
-        episodeName: "Otoriteyi Öldür."
+        episodeName: "Otoriteyi öldür."
         episodeDate: "14 Temmuz 2014"
         uploaderID: "000001"
-        episodePreview: "https://image.tmdb.org/t/p/w300/l95YwpX4p8ibqgqkMAdS4SvKflw.jpg"
-        description: "Tatsumi, Gece Baskını tarafından ele geçirilir. Bir suikastçı olarak potansiyelini fark ederler ve ondan katılmasını isterler, ancak Tatsumi çelişmiştir. Night Raid’in ekip üyelerinin her biri hakkında daha fazla şey öğrendikten sonra, onların kötülüğü ve yozlaşmayı yenme hedeflerini öğrenir ve sonunda katılmaya karar verir."
+        episodePreview: "https://simkl.in/episodes/26/2656914bf13c1a2aa_w.jpg"
+        description: "Leone, Tatsumi'yi Gece Akıncıları'in sığınağına götürür ve onu Tatsumi'nin hepsini ucube olarak gördüğü diğer üyelerle tanıştırır. Gece Akıncıları lideri Najenda, Tatsumi'yi Gece Akıncıları'e katılmaya ikna eder, çünkü görevleri İmparatorluğu devirmek ve yerine yeni bir demokratik hükümet kurmaktır. Najenda, Akame'yi Tatsumi'yi eğitmesi için görevlendirir, ancak Tatsumi sadece yemek pişirmek ve balık tutmakla kalır. Tatsumi'ye daha sonra, genellikle masum insanları suçlu olarak gösteren Ogre adlı İmparatorluk Polisinin yozlaşmış kaptanına suikast yapma görevi verilir. Geceleri Tatsumi, birbirlerine kılıç çektikleri sokaklarda Ogre'yi bulur. Ogre kibirli hale geldiğinde, Tatsumi, kılıcının darbesiyle Ogre'yi öldürür. Kendini beğenmiş bir Tatsumi sığınağa geri dönerken, Akame onun üzerinde çıplak arama yapar ve yaralanmadığından emin olur. Şimdiye kadar hayatta kaldığı için onu Gece Akıncıları üyesi olarak kabul eder."
         fansubs: ["Knaves", "Netrip"]
         urls:
           Knaves: "https://mega.nz/embed/Xt42hLTD#IwhLzIJKzwhW8-9Mi6OW1DIzWFyytEQStvTjFd4GzHA"
@@ -38,11 +44,47 @@ seasons:
         episodeName: "Kini öldür."
         episodeDate: "21 Temmuz 2014"
         uploaderID: "000001"
-        episodePreview: "https://image.tmdb.org/t/p/w300/s65sBWCcqB0lVvBoT6wObwvruWD.jpg"
-        description: "Night Raid’in sığınağı davetsiz misafirlerin istilasına uğradı! Suikastçı klan, düşmanı sorunsuz bir şekilde kovmayı başardı. Tatsumi, Night Raidin gerçek yoğunluğunu ilk kez yaşar ve çok heyecanlanır."
+        episodePreview: "https://i.ytimg.com/vi/oQGgXTkRdsk/maxresdefault.jpg"
+        description: "Najenda, saklanma yerini işgal etmeye çalışan sekiz kabile suikastçısını devirmek için Gece Akıncıları'i gönderir. Ertesi sabah, Tatsumi, Gece Akıncıları üyesi Mine altında eğitmek için görevlendirilir. Sokaklarda dolaşırken, Tatsumi hüsrana uğrar, çünkü esas olarak Mine ile bazı kıyafetler için şehirde alışveriş yapar. Daha sonra, Başbakan Dürüst'ün, Bakan Dürüst'ün gerçek yüzünü gören bir adamın idamını emretmesine tanık olurlar; İmparatorluğun zalim fiili hükümdarı. Daha sonra Najenda, İmparatorluğun Dürüst Başbakanı'nın uzak bir kan akrabası olan Iokal'a suikast düzenlemek için Gece Akıncıları'i gönderir. İokal, kadınları kaçırıp ölümüne taciz etmekten sorumludur. Malikanede, Tatsumi, Mine'nin Iokal'ı öldürmek için güçlü bir tüfek tabancası olan Imperial Arms Pumpkin'i kullandığını, Iokal'ın masum kadınlarla çevrili olmasına rağmen yakalanmasını izliyor. Tatsumi, Mine'nin çocukluğunda yarı yabancı kanı için nasıl istismar edildiğinin hikayesini de dinliyor; ve başka hiç kimsenin onun yaşadığı ayrımcılığa ve işkenceye maruz kalmaması umuduyla Devrimci Kol'a katılmak için kaçtı. Beş korumadan sonuncusu, Gece Akıncıları üyelerinin geri kalanı tarafından öldürülmekten kaçarak Tatsumi ve Mine'i pusuya düşürür. Tatsumi, korumayı dizginler ve Mine'e su çulluğu yapma fırsatı verir. Ancak Tatsumi, Mine'nin saçlarını okşadığı için üzgün."
         fansubs: ["Knaves", "Netrip"]
         urls:
           Knaves: "https://mega.nz/embed/jxxD3QgK#-3LUU1gF52SqoZ1qlfK_vTdacEv9Rj7s874E2i1qB2Q"
           Netrip: "https://uqload.org/embed-65juvxtfk82y.html"
           KnavesSource: "MEGA"
+          NetripSource: "UQLOAD"
+      episode4:
+        episodeName: "İmparatorluk Kolu kullanıcılarını öldür."
+        episodeDate: "27 Temmuz 2014"
+        uploaderID: "000001"
+        episodePreview: "https://doflamingo45.weebly.com/uploads/3/2/2/3/32234317/2350128_orig.png"
+        description: "Gece Akıncıları üyeleri, bir sonraki hedefleri olan ve geceleri birkaç kurbanın kafasını kesmeye bağımlı hale gelen eski bir cellat olan ünlü Zanku hakkında tartışıyorlar. Najenda, Tatsumi'ye, Gece Akıncıları üyelerinin hepsinin şu anda sahip olduğu, kullanılan güçlü kalıntılar olan Imperial Arms'ın kökenini açıklar. İmparatorluk Silahları o kadar ölümcül ki, eğer iki kişi düello yapmayı seçerse, biri sonunda yok olacak. Sokaklarda Tatsumi ve Akame, Zanku'yu bulmak için bir araya gelir. Tatsumi, Sayo'nun bir yanılsaması tarafından yönlendirilir ve kısa süre sonra, her saldırıyı tahmin etmek için önsezi veren bir başlık olan Imperial Arms Spectator'ı kullanan Zanku tarafından kurulan bir tuzağa düşer. Akame, yaralandığında Tatsumi'yi bulur ve Zanku ile tek başına savaşmak için onun yerini alır. Zanku, Akame'nin küçük kız kardeşi Kurome yanılsamasını yaratarak Akame'yi kandırmaya çalışır. Akame, yanılsamayı hızla yok eder ve ardından zehirli bıçaklı bir kılıç olan İmparatorluk Silahı Murasame'yi kullanarak Zanku'yu öldürür. Artık idam edilen kurbanların sesleriyle çıldırmadığı için huzur içinde yatıyor."
+        fansubs: ["Knaves", "Netrip"]
+        urls:
+          Knaves: "https://uqload.org/embed-s9oomithyaev.html"
+          Netrip: "https://uqload.org/embed-hmaseb8sopd5.html"
+          KnavesSource: "UQLOAD"
+          NetripSource: "UQLOAD"
+      episode5:
+        episodeName: "Boş hayali öldür."
+        episodeDate: "3 Ağustos 2014"
+        uploaderID: "000001"
+        episodePreview: "https://i.pinimg.com/736x/eb/d5/09/ebd509d183287aa350c579a61aa5b90a.jpg"
+        description: "Tatsumi, gün boyunca Gece Akıncıları üyesi Sheele altında eğitim alacağına şaşırır. Tatsumi zırhı içindeyken yüzmeyi öğrendikten sonra, Sheele onun çeşitli işleri yapamamasından bahseder ve bu da sakarlığını açıklar. Sheele, bir suikastçı olarak yeteneklerini ilk kez, en iyi arkadaşının eski erkek arkadaşını öldürerek en iyi arkadaşını kurtardığında keşfetti. Daha sonra, Tatsumi, Zanku'nun kurtarılan İzleyicisini dener, ancak onu etkinleştirmeye çalıştığında onu reddeder. Gece Akıncıları'in en büyük önceliği, hepsi bir kitapta belgelenen, var olduğu bilinen her İmparatorluk Silahını toplamaktır. Ancak Tatsumi, ölen kişiyi diriltmeye kimsenin gücü yetmediğini öğrenince üzülür. Ertesi gün, Tatsumi pazarda devriye gezerken Leone'den ayrılır. Pazar yerine geri dönmesi için İmparatorluk Polisinden Seryu Ubiquitous, Imperial Arms Hecatoncheir, lakaplı köpeğe benzer bir evcil hayvan olan 'Koro' tarafından yardım edilir. Seryu kaçtığında, Ogre olduğu ortaya çıkan akıl hocasının ölümü için tüm Gece Akıncıları'i öldürmeyi planlıyor."
+        fansubs: ["Knaves", "Netrip"]
+        urls:
+          Knaves: "https://drive.google.com/file/d/1Qnjkp4Xr-09nM5Rz6TLL5jG_YMk5Qlat/preview"
+          Netrip: "https://uqload.org/embed-emktbg0szvch.html"
+          KnavesSource: "GDrive"
+          NetripSource: "UQLOAD"
+      episode6:
+        episodeName: "Mutlak adaleti öldür."
+        episodeDate: "10 Ağustos 2014"
+        uploaderID: "000001"
+        episodePreview: "https://pictures.betaseries.com/banners/episodes/8931/1ffa065bb782e9d95f4e92ab35aae201.jpg"
+        description: "Tatsumi ve Leone, büyük bir grup kadını etkisiz hale getiren ve uyuşturan bir uyuşturucu kaçakçısı çetesine suikast düzenlemek için bir tapınağa sızar. Leone, çeteyi ortadan kaldırmak için ona kedi benzeri yetenekler veren bir kemer olan Imperial Arms Lionel'i kullanır. Bu arada Mine ve Sheele, Koro'sunun yenilenip boyut olarak artabileceği Seryu tarafından pusuya düşürülür. Mine, Koro'ya saldırmak için Balkabağı'nı kullanırken, Sheele, Seryu'nun kollarını kesmek için devasa bir makas olan Imperial Arms Extase'ı kullanıyor. Seryu'nun silahları kollarının içinde gizlediği ortaya çıksa da, Sheele silah sesini saptırır ve silahları keser. Koro çılgına döner, Mine'i yakalar ve onu neredeyse ölümüne ezer. Sheele Mine'i kurtardığında, Seryu Sheele'ye ağzına gizlediği bir silahla ateş eder. Koro, Sheele'i ikiye bölerken Mine dehşet içinde izliyor. Sheele, Koro tarafından yutulduktan sonra Sheele öldürülürken Mine'in kaçmasına izin vererek, koz kartı olarak kör edici bir ışık yaymak için Extase'i kullanabilir. Yağmur yağarken, Mine onlara Sheele'nin ölümünü bildirdiğinde, Gece Akıncıları'in diğer üyeleri şoktadır."
+        fansubs: ["Knaves", "Netrip"]
+        urls:
+          Knaves: "https://vudeo.net/embed-65y9n5yjtfne.html"
+          Netrip: "https://uqload.org/embed-1qkzqd7o78ua.html"
+          KnavesSource: "VUDEO"
           NetripSource: "UQLOAD"

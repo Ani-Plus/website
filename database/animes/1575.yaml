@@ -1,0 +1,23 @@
+uploadedSeasonCount: 1
+uploadedEpisodeCount: 1
+seasons:
+  season1:
+    seasonName: "Code Geass: Hangyaku no Lelouch"
+    episodeCount: 25
+    uploadedEpisodeCount: 1
+    startDate: "6 Ekim 2006"
+    endDate: "29 Temmuz 2007"
+    isCompleted: true
+    description: "10 Ağustos 2010'da, a.t.b., Japonya Kutsal Britanya İmparatorluğu tarafından fethedildi. Yedi yıl sonra, genç öğrenci Lelouch Lamperouge, kendisini hükümet karşıtı teröristler ile Shinjuku Gettosu'ndaki Britanya Ordusu arasında bir savaşın içinde bulur. Çatışmanın ortasında, gizemli, yeşil saçlı bir kız ona "kralın gücü" vererek onu ölümden kurtarır, bu da onun başkalarını istediğini yapmaya zorlamasını sağlar."
+    seasonCover: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSheC3QxGN7KkWlrheYnos4KjDiHivUt-Lz-u4xvRbv5CT9tO5w"
+    episodes:
+      episode1:
+        episodeName: "Yeni bir iblisin doğduğu gün."
+        episodeDate: "6 Ekim 2006"
+        uploaderID: "000001"
+        episodePreview: "https://simkl.in/episodes/57/5740097ab3966adbc_w.jpg"
+        description: "10 Ağustos 2010'da, a.t.b., Japonya Kutsal Britanya İmparatorluğu tarafından fethedildi. Yedi yıl sonra, genç öğrenci Lelouch Lamperouge, kendisini hükümet karşıtı teröristler ile Shinjuku Gettosu'ndaki Britanya Ordusu arasında bir savaşın içinde bulur. Çatışmanın ortasında, gizemli, yeşil saçlı bir kız ona "kralın gücü" vererek onu ölümden kurtarır, bu da onun başkalarını istediğini yapmaya zorlamasını sağlar."
+        fansubs: ["AniSekai", "AniSekai"]
+        urls:
+          AniSekai: "https://video.sibnet.ru/shell.php?videoid=2699448"
+          AniSekaiSource: "Sibnet"
