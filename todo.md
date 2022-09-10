@@ -4,8 +4,6 @@
 - /pages/lists/index.vue'daki hatalar giderilecek
 - /pages/profiles/_username/lists/_id/edit/index.vue eklenecek
 - /pages/profiles/_username/lists/create/index.vue eklenecek
-- /pages/oauth2/login/index.vue eklenecek (Giriş)
-- /pages/oauth2/register/index.vue eklenecek (Kayıt)
 - /pages/admin/index.vue eklenecek (Yönetici sayfası)
 - /pages/admin/animes/index.vue eklenecek
 - /pages/admin/animes/add.vue eklenecek
