@@ -442,7 +442,7 @@ export default {
                 for(let item of userinfo.lists) {
                 listinfo = YAML.parse(fs.readFileSync(path.join(process.cwd(), `/database/lists/${item}.yaml`), "utf-8"))
                 this.listinfo[item] = listinfo
-                listcovers.push(`https://cdn3.falsisdev.repl.co/anime/images?name=${ids[listinfo["animes"][0]]}&type=cover`)
+                listcovers.push(`https://cdn.falsis.ga/anime/images?name=${ids[listinfo["animes"][0]]}&type=cover`)
                 }
                 this.lists = userinfo.lists //array
                 userinfo.lists.forEach((item) => this.listobj[item] = "value")

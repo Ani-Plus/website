@@ -158,7 +158,7 @@
 </main>
 </template>
 <script>
-let baseURL = `https://cdn3.falsisdev.repl.co`;
+let baseURL = `https://cdn.falsis.ga`;
 let imagesURL = `${baseURL}/anime/images`
 let infoURL = `${baseURL}/anime/info`
 let imagesQueries = [

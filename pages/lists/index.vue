@@ -176,7 +176,7 @@ export default {
             for(let item of lists["lists"]) {
                 let cvr = ids[YAML.parse(fs.readFileSync(path.join(process.cwd(), `/database/lists/${item}.yaml`), "utf-8"))["animes"][0]]
                 likes.push(YAML.parse(fs.readFileSync(path.join(process.cwd(), `/database/lists/${item}.yaml`), "utf-8"))["likes"])
-                coverarts.push(`https://cdn3.falsisdev.repl.co/anime/images?name=${cvr}&type=cover`)
+                coverarts.push(`https://cdn.falsis.ga/anime/images?name=${cvr}&type=cover`)
                 idss.push(YAML.parse(fs.readFileSync(path.join(process.cwd(), `/database/lists/${item}.yaml`), "utf-8"))["listID"])
                 n.push(YAML.parse(fs.readFileSync(path.join(process.cwd(), `/database/lists/${item}.yaml`), "utf-8"))["name"])
             }

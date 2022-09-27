@@ -44,7 +44,7 @@
 <h1 align="center">Yüklenmiş Animeler</h1><br><br>
  <div v-for="item of scoresort" v-bind:key="item" class="card lg:card-side card-normal bg-base-100 justify-center p-[10px]">
     <figure><a :href="`/animes/${Object.keys(ids)[Object.values(ids).indexOf(Object.values(ids).find(arr => arr.includes(item[0])))]
-}`"><img :src="`https://cdn3.falsisdev.repl.co/anime/images?name=${item[0]}&type=cover`" width="300" height="450"></a></figure>
+}`"><img :src="`https://cdn.falsis.ga/anime/images?name=${item[0]}&type=cover`" width="300" height="450"></a></figure>
 <span class="card-body">
   <h1 class="card-title">{{ info[item[0]].names.default }}</h1>
   <p>
@@ -107,7 +107,7 @@
 </main>
 </template>
 <script>
-let baseURL = `https://cdn3.falsisdev.repl.co`;
+let baseURL = `https://cdn.falsis.ga`;
 let infoURL = `${baseURL}/anime/info`
 let ids;
 if(process.server) {

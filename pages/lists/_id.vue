@@ -236,7 +236,7 @@ export default {
             for(let item of animes) {
                 const id = JSON.parse(fs.readFileSync(path.join(process.cwd(), `/database/ids.json`), "utf-8"))
 
-                covers.push(`https://cdn3.falsisdev.repl.co/anime/images?name=${id[item]}`)
+                covers.push(`https://cdn.falsis.ga/anime/images?name=${id[item]}`)
             }
             this.covers = covers
         }
